@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:google_mobile_ads/google_mobile_ads.dart';
 
 import '../../../features/questions_page/widgets/time_finished_dialog.dart';
-import '../../../services/f_ads.dart';
 import '../../../services/f_database.dart';
 import '../../../state/counter_cubit.dart';
 import '../../../utils/appstyles.dart';

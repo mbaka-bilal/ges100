@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:google_mobile_ads/google_mobile_ads.dart';
 
 import '../../../features/dashboard/widgets/select_course_card.dart';
-import '../../../services/f_ads.dart';
 import '../../../utils/appstyles.dart';
 import '../../questions_page/widgets/banner_ad_widget.dart';
 
@@ -37,7 +34,7 @@ class ChooseSubject extends StatelessWidget {
                   decoration: BoxDecoration(
                       color: AppColors.amber,
                       borderRadius: BorderRadius.circular(10)),
-                  child: SingleChildScrollView(
+                  child: const SingleChildScrollView(
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
@@ -60,7 +57,7 @@ class ChooseSubject extends StatelessWidget {
                         // if (ad.fetchBannerAd() != null)
                         BannerAdWidget(),
 
-                        const SelectCourseCard(
+                        SelectCourseCard(
                           // proceedTo: Container(),
                           // image: 'image',
                           courseName: 'Ges 100.1',

@@ -1,8 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '../../../services/f_ads.dart';
 import '/features/onboarding/screens/onboarding.dart';
 import '/services/f_database.dart';
 

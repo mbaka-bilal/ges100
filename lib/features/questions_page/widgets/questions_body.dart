@@ -1,15 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:google_mobile_ads/google_mobile_ads.dart';
 
-import '../../../services/f_ads.dart';
 import '../../../services/f_database.dart';
 import '../../../state/counter_cubit.dart';
 import '../../../utils/appstyles.dart';
 import '../../../widgets/custom_button.dart';
 import '../../../widgets/custom_radio_button.dart';
-import '../../dashboard/screens/choose_subject.dart';
 import 'banner_ad_widget.dart';
 
 class Body extends StatelessWidget {

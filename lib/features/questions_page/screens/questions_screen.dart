@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '../../../services/f_ads.dart';
 import '../../../state/counter_cubit.dart';
 import '../../../utils/appstyles.dart';
 import '../widgets/questions_body.dart';

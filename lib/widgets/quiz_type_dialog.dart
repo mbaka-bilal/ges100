@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 import '../features/questions_page/screens/questions_screen.dart';
 import '../features/questions_page/screens/questions_screen_with_time.dart';
-import '../services/f_ads.dart';
 import '../utils/appstyles.dart';
 
 Widget selectQuizTypeDialog(String tableName, BuildContext context) {
