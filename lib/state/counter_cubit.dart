@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'package:async/async.dart';
 
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:uniport_past_questions/services/prefs.dart';
@@ -76,13 +77,20 @@ class CheckAnswer {
 }
 
 class CountDownTimerCubit extends Cubit<int> {
+  // RestartableTimer
+  // RestartableTimer? timer;
   Timer? timer;
 
-  CountDownTimerCubit() : super(30) {
-    emit(30);
-    timer = Timer.periodic(const Duration(minutes: 1), (timer) {
+  CountDownTimerCubit() : super(60);
+
+  void startTimer() {
+    emit(60);
+    timer = Timer.periodic(const Duration(seconds: 1), (timer) {
+      // print ("the timer is working $state");
       if (state == 0) {
+        // print ("done");
         timer.cancel();
+        startTimer();
       } else {
         emit(state - 1);
       }
@@ -91,7 +99,9 @@ class CountDownTimerCubit extends Cubit<int> {
 
   @override
   Future<void> close() {
-    timer ?? timer!.cancel();
+    if (timer != null){
+      timer!.cancel();
+    }
     return super.close();
   }
 }

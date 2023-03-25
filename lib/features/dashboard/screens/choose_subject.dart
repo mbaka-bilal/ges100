@@ -64,6 +64,22 @@ class ChooseSubject extends StatelessWidget {
                           tableName: 'ges100',
                           leadingWidget: Icon(Icons.language),
                         ),
+
+                        SelectCourseCard(
+                          // proceedTo: Container(),
+                          // image: 'image',
+                          courseName: 'Ges 102.1',
+                          tableName: 'ges102',
+                          leadingWidget: Icon(Icons.language),
+                        ),
+
+                        SelectCourseCard(
+                          // proceedTo: Container(),
+                          // image: 'image',
+                          courseName: 'Ges 103.1',
+                          tableName: 'ges103',
+                          leadingWidget: Icon(Icons.language),
+                        ),
                       ],
                     ),
                   ),

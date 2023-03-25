@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
             create: ((context) => InterstitalAdCubit())),
       ],
       child: MaterialApp(
-        title: 'Ges 100',
+        title: 'Ges',
         debugShowCheckedModeBanner: false,
         theme: ThemeData(primarySwatch: Colors.blue, fontFamily: 'Inter'),
         home: const SplashScreen(),

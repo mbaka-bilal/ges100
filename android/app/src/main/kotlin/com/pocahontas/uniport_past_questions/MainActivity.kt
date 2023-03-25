@@ -1,4 +1,4 @@
-package com.thepocketmerlin.ges100
+package com.thepocketmerlin.ges
 
 import io.flutter.embedding.android.FlutterActivity
 

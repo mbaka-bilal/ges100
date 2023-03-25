@@ -33,7 +33,7 @@ class SelectCourseCard extends StatelessWidget {
     return BlocBuilder<InterstitalAdCubit, InterstitialAd?>(
       builder: (context, state) => InkWell(
         onTap: () {
-          context.read<InterstitalAdCubit>().loadInterstitialAd();
+          // context.read<InterstitalAdCubit>().loadInterstitialAd();
           if (state != null) {
             state.show();
           }
@@ -69,7 +69,7 @@ class SelectCourseCard extends StatelessWidget {
                   ),
                   space,
                   FutureBuilder(
-                      future: FDatabase.countQuestions('ges100'),
+                      future: FDatabase.countQuestions(tableName),
                       builder: ((context, snapshot) {
                         if (snapshot.hasData) {
                           int result = snapshot.data as int;

@@ -19,10 +19,33 @@ class BuildBody extends StatefulWidget {
 class _BuildBodyState extends State<BuildBody> {
   Future<List<Map<String, dynamic>>> future =
       FDatabase.fetchQuestions('ges100');
+  int _timeLeft = 30;
 
   final countDownTimerCubit = CountDownTimerCubit();
 
   int totalScore = 0;
+
+  @override
+  void initState() {
+    super.initState();
+    // context.read<CountDownTimerCubit>().startTimer();
+    countDownTimerCubit.startTimer();
+    countDownTimerCubit.stream.listen((event) {
+      // print ("listening to cubit");
+      if (event == 0) {
+        // print ("reduce time");
+        _timeLeft--;
+        if (_timeLeft == 0) {
+          context.read<CountDownTimerCubit>().close();
+          showDialog(
+              context: context,
+              barrierDismissible: false,
+              builder: (builder) =>
+                  customDialog(context: context, totalScore: totalScore));
+        }
+      }
+    });
+  }
 
   @override
   void dispose() {
@@ -32,16 +55,9 @@ class _BuildBodyState extends State<BuildBody> {
 
   @override
   Widget build(BuildContext context) {
-    countDownTimerCubit.stream.listen((event) {
-      if (event == 0) {
-        context.read<CountDownTimerCubit>().close();
-        showDialog(
-            context: context,
-            barrierDismissible: false,
-            builder: (builder) =>
-                customDialog(context: context, totalScore: totalScore));
-      }
-    });
+
+
+
 
     return LayoutBuilder(
         builder: (context, boxConstrants) => ConstrainedBox(
@@ -95,7 +111,7 @@ class _BuildBodyState extends State<BuildBody> {
                                       LinearProgressIndicator(
                                         minHeight: 10,
                                         value: (asyncSnapShot.hasData)
-                                            ? (asyncSnapShot.data! / 10)
+                                            ? (_timeLeft / 30)
                                             : 1,
                                         color: AppColors.purple,
                                       ),
@@ -115,10 +131,10 @@ class _BuildBodyState extends State<BuildBody> {
                                           ),
                                           Text(
                                               (asyncSnapShot.hasData)
-                                                  ? '${asyncSnapShot.data} Minutes Left'
-                                                  : '30 Minutes Left',
-                                              style: TextStyles.regular(
-                                                  14, Colors.black45))
+                                                  ? '$_timeLeft Minutes : ${asyncSnapShot.data} seconds Left'
+                                                  : '30 Minutes : 59 seconds Left',
+                                              style: TextStyles.semiBold(
+                                                  14, Colors.black,))
                                         ],
                                       )
                                     ],

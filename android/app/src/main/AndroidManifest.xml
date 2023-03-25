@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.thepocketmerlin.ges100">
+    package="com.thepocketmerlin.ges">
    <application
-        android:label="Ges100"
+        android:label="Ges"
         android:name="${applicationName}"
         android:icon="@mipmap/launcher_icon">
         <activity
