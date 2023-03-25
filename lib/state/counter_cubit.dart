@@ -1,8 +1,8 @@
 import 'dart:async';
 import 'package:async/async.dart';
-
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:uniport_past_questions/services/prefs.dart';
+
+import '/services/prefs.dart';
 
 class CounterCubit extends Cubit<int> {
   // final int index;
