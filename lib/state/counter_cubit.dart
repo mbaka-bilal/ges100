@@ -1,5 +1,4 @@
 import 'dart:async';
-import 'package:async/async.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 import '/services/prefs.dart';
@@ -11,14 +10,14 @@ class CounterCubit extends Cubit<int> {
   ///
   ///
 
-  CounterCubit({required bool shouldResume}) : super(0) {
+  CounterCubit({required bool shouldResume,required String tableName}) : super(0) {
     if (shouldResume) {
-      _updateIndex();
+      _updateIndex(tableName);
     }
   }
 
-  void _updateIndex() async {
-    int? index = await UserData.readData();
+  void _updateIndex(String tableName) async {
+    int? index = await UserData.readData(tableName);
     if (index == null) {
       emit(0);
     } else {
@@ -27,15 +26,27 @@ class CounterCubit extends Cubit<int> {
   }
 
   //Add 1 to the current state
-  void increment() async {
+  void increment({String? tableName}) async {
     emit(state + 1);
-    await UserData.setData(state + 1);
+    if (tableName != null){
+      await UserData.setData(state + 1,tableName);
+    }
   }
 
   // Subtract 1 from the current state
-  void decrement() async {
+  void decrement({String? tableName}) async {
     emit(state - 1);
-    await UserData.setData(state + 1);
+    if (tableName != null){
+      await UserData.setData(state + 1,tableName);
+    }
+  }
+
+  //Jump to a question index
+  void jumpToTop({String? tableName}) async {
+    emit(0);
+    if (tableName != null){
+      await UserData.setData(state + 1,tableName);
+    }
   }
 }
 

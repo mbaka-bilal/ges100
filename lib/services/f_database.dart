@@ -61,6 +61,7 @@ class FDatabase {
     final db = await openDatabase(finalPath);
     Batch batch = db.batch();
 
+    /* Communication in English */
     if (tableName == "ges100") {
       print("attempting to add questions to the database");
       for (int i = 0; i < ges100.length; i++) {
@@ -81,6 +82,15 @@ class FDatabase {
       // print("attempting to add questions to the database");
       for (int i = 0; i < ges103.length; i++) {
         batch.insert(tableName, ges103[i],
+            conflictAlgorithm: ConflictAlgorithm.replace);
+      }
+    }
+
+    /* Computer appreciation */
+    if (tableName == "ges101") {
+      // print("attempting to add questions to the database");
+      for (int i = 0; i < ges101.length; i++) {
+        batch.insert(tableName, ges101[i],
             conflictAlgorithm: ConflictAlgorithm.replace);
       }
     }

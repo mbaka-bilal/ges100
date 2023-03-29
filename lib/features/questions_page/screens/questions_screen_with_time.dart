@@ -41,7 +41,7 @@ class QuestionScreenWithTime extends StatelessWidget {
         body: MultiBlocProvider(
           providers: [
             BlocProvider<CounterCubit>(
-              create: (_) => CounterCubit(shouldResume: false),
+              create: (_) => CounterCubit(shouldResume: false,tableName: subjectName),
             ),
             BlocProvider<CountDownTimerCubit>(
               create: (_) => CountDownTimerCubit(),

@@ -38,7 +38,7 @@ class PractiseQuestionScreen extends StatelessWidget {
       ),
       body: MultiBlocProvider(providers: [
         BlocProvider<CounterCubit>(
-          create: (_) => CounterCubit(shouldResume: true),
+          create: (_) => CounterCubit(shouldResume: true,tableName: subjectName),
         ),
         BlocProvider<CheckAnswerCubit>(
           create: (_) => CheckAnswerCubit(),
@@ -46,7 +46,7 @@ class PractiseQuestionScreen extends StatelessWidget {
         BlocProvider<CountDownTimerCubit>(
           create: (_) => CountDownTimerCubit(),
         ),
-      ], child: Body()),
+      ], child: Body(tableName: subjectName)),
     );
   }
 }

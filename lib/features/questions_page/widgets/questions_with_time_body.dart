@@ -55,262 +55,266 @@ class _BuildBodyState extends State<BuildBody> {
 
   @override
   Widget build(BuildContext context) {
-
-
-
-
     return LayoutBuilder(
-        builder: (context, boxConstrants) => ConstrainedBox(
-              constraints: BoxConstraints(
-                minHeight: boxConstrants.maxHeight,
-              ),
-              child: FutureBuilder(
-                  future: future,
-                  builder: (context, snapShot) {
-                    if (snapShot.hasData) {
-                      List<Map<String, dynamic>> result =
-                          snapShot.data as List<Map<String, dynamic>>;
-                      List<Map<String, dynamic>> questionsMap = result.toList()
-                        ..shuffle();
-                      return Padding(
-                        padding: const EdgeInsets.all(10),
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.center,
-                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                          children: [
-                            // BlocBuilder<GoogleAdDisplay, BannerAd?>(
-                            //     builder: ((context, state) {
-                            //   context
-                            //       .read<GoogleAdDisplay>()
-                            //       .initializeBannerAd();
-                            //   if (state != null) {
-                            //     return SizedBox(
-                            //       width: state.size.width.toDouble(),
-                            //       height: state.size.height.toDouble(),
-                            //       child: AdWidget(
-                            //         ad: state,
-                            //       ),
-                            //     );
-                            //   } else {
-                            //     return Container();
-                            //   }
-                            // })),
-                            const BannerAdWidget(),
-                            StreamBuilder(
-                                stream: countDownTimerCubit.stream,
-                                builder: (context, asyncSnapShot) {
-                                  // int? data = asyncSnapShot.data;
+        builder: (context, boxConstrants) => SingleChildScrollView(
+          child: ConstrainedBox(
+                constraints: BoxConstraints(
+                  minHeight: boxConstrants.maxHeight,
+                ),
+                child: FutureBuilder(
+                    future: future,
+                    builder: (context, snapShot) {
+                      if (snapShot.hasData) {
+                        List<Map<String, dynamic>> result =
+                            snapShot.data as List<Map<String, dynamic>>;
+                        List<Map<String, dynamic>> shuffledQuestions = result.toList()
+                          ..shuffle();
+                        List<Map<String,dynamic>> questionsMap = shuffledQuestions.sublist(0,70);
+                        return Padding(
+                          padding: const EdgeInsets.all(10),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.center,
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                            children: [
+                              // BlocBuilder<GoogleAdDisplay, BannerAd?>(
+                              //     builder: ((context, state) {
+                              //   context
+                              //       .read<GoogleAdDisplay>()
+                              //       .initializeBannerAd();
+                              //   if (state != null) {
+                              //     return SizedBox(
+                              //       width: state.size.width.toDouble(),
+                              //       height: state.size.height.toDouble(),
+                              //       child: AdWidget(
+                              //         ad: state,
+                              //       ),
+                              //     );
+                              //   } else {
+                              //     return Container();
+                              //   }
+                              // })),
+                              // const BannerAdWidget(),
+                              // BannerAdWidget()
+                              StreamBuilder(
+                                  stream: countDownTimerCubit.stream,
+                                  builder: (context, asyncSnapShot) {
+                                    // int? data = asyncSnapShot.data;
 
-                                  return Column(
-                                    crossAxisAlignment:
-                                        CrossAxisAlignment.center,
-                                    children: [
-                                      const SizedBox(
-                                        height: 20,
-                                      ),
-                                      LinearProgressIndicator(
-                                        minHeight: 10,
-                                        value: (asyncSnapShot.hasData)
-                                            ? (_timeLeft / 30)
-                                            : 1,
-                                        color: AppColors.purple,
-                                      ),
-                                      const SizedBox(
-                                        height: 10,
-                                      ),
-                                      Row(
-                                        mainAxisAlignment:
-                                            MainAxisAlignment.center,
-                                        children: [
-                                          const Icon(
-                                            Icons.punch_clock_outlined,
-                                            color: Colors.black45,
-                                          ),
-                                          const SizedBox(
-                                            width: 10,
-                                          ),
-                                          Text(
-                                              (asyncSnapShot.hasData)
-                                                  ? '$_timeLeft Minutes : ${asyncSnapShot.data} seconds Left'
-                                                  : '30 Minutes : 59 seconds Left',
-                                              style: TextStyles.semiBold(
-                                                  14, Colors.black,))
-                                        ],
-                                      )
-                                    ],
-                                  );
-                                }),
-
-                            //Begin questions and answer display
-                            BlocBuilder<CounterCubit, int>(
-                                builder: (context, state) {
-                              String optionString =
-                                  questionsMap[state]['options'];
-                              List<String> options = optionString.split('|');
-
-                              return Column(
-                                children: [
-                                  Text(
-                                    'Question ${state + 1}/${questionsMap.length}',
-                                    style:
-                                        TextStyles.semiBold(20, Colors.black45),
-                                  ),
-                                  const SizedBox(
-                                    height: 20,
-                                  ),
-                                  Container(
-                                    height:
-                                        MediaQuery.of(context).size.height / 2,
-                                    padding: const EdgeInsets.symmetric(
-                                        horizontal: 15),
-                                    child: Card(
-                                      color: Colors.white,
-                                      shape: RoundedRectangleBorder(
-                                          borderRadius:
-                                              BorderRadius.circular(10)),
-                                      child: SingleChildScrollView(
-                                        child: Column(
+                                    return Column(
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.center,
+                                      children: [
+                                        const SizedBox(
+                                          height: 20,
+                                        ),
+                                        LinearProgressIndicator(
+                                          minHeight: 10,
+                                          value: (asyncSnapShot.hasData)
+                                              ? (_timeLeft / 30)
+                                              : 1,
+                                          color: AppColors.purple,
+                                        ),
+                                        const SizedBox(
+                                          height: 10,
+                                        ),
+                                        Row(
+                                          mainAxisAlignment:
+                                              MainAxisAlignment.center,
                                           children: [
-                                            const SizedBox(
-                                              height: 25,
-                                            ),
-                                            Padding(
-                                              padding:
-                                                  const EdgeInsets.symmetric(
-                                                      horizontal: 8.0),
-                                              child: Text(
-                                                questionsMap[state]['question'],
-                                                style: TextStyles.medium(
-                                                    20, Colors.black),
-                                              ),
+                                            const Icon(
+                                              Icons.punch_clock_outlined,
+                                              color: Colors.black45,
                                             ),
                                             const SizedBox(
-                                              height: 15,
+                                              width: 10,
                                             ),
-                                            ...List.generate(
-                                                options.length,
-                                                (index) => CustomRadioButton(
-                                                    correctAnswerIndex: int
-                                                        .tryParse(questionsMap[
-                                                                state]
-                                                            ['answerIndex'])!,
-                                                    buttonIndex: index,
-                                                    question: options[index]))
+                                            Text(
+                                                (asyncSnapShot.hasData)
+                                                    ? '$_timeLeft Minutes : ${asyncSnapShot.data} seconds Left'
+                                                    : '30 Minutes : 59 seconds Left',
+                                                style: TextStyles.semiBold(
+                                                  14,
+                                                  Colors.black,
+                                                ))
                                           ],
+                                        )
+                                      ],
+                                    );
+                                  }),
+
+                              //Begin questions and answer display
+                              BlocBuilder<CounterCubit, int>(
+                                  builder: (context, state) {
+                                String optionString =
+                                    questionsMap[state]['options'];
+                                List<String> options = optionString.split('|');
+
+                                return Column(
+                                  children: [
+                                    Text(
+                                      'Question ${state + 1}/${questionsMap.length}',
+                                      style:
+                                          TextStyles.semiBold(20, Colors.black45),
+                                    ),
+                                    const SizedBox(
+                                      height: 20,
+                                    ),
+                                    Container(
+                                      height:
+                                          MediaQuery.of(context).size.height / 2,
+                                      padding: const EdgeInsets.symmetric(
+                                          horizontal: 15),
+                                      child: Card(
+                                        color: Colors.white,
+                                        shape: RoundedRectangleBorder(
+                                            borderRadius:
+                                                BorderRadius.circular(10)),
+                                        child: SingleChildScrollView(
+                                          child: Column(
+                                            children: [
+                                              const SizedBox(
+                                                height: 25,
+                                              ),
+                                              Padding(
+                                                padding:
+                                                    const EdgeInsets.symmetric(
+                                                        horizontal: 8.0),
+                                                child: Text(
+                                                  questionsMap[state]['question'],
+                                                  style: TextStyles.medium(
+                                                      20, Colors.black),
+                                                ),
+                                              ),
+                                              const SizedBox(
+                                                height: 15,
+                                              ),
+                                              ...List.generate(
+                                                  options.length,
+                                                  (index) => CustomRadioButton(
+                                                      correctAnswerIndex: int
+                                                          .tryParse(questionsMap[
+                                                                  state]
+                                                              ['answerIndex'])!,
+                                                      buttonIndex: index,
+                                                      question: options[index]))
+                                            ],
+                                          ),
                                         ),
                                       ),
                                     ),
-                                  ),
-                                ],
-                              );
-                            }),
-                            //End question and answer display
+                                  ],
+                                );
+                              }),
+                              //End question and answer display
 
-                            //Begin display of buttons
+                              BannerAdWidget(),
 
-                            BlocBuilder<CounterCubit, int>(
-                              builder: (context, state) => Padding(
-                                padding: const EdgeInsets.only(
-                                    bottom: 20, right: 10, left: 10),
-                                child: Row(
-                                  mainAxisAlignment:
-                                      MainAxisAlignment.spaceBetween,
-                                  children: [
-                                    CustomButton(
-                                      function: (state == 0)
-                                          ? null
-                                          : () {
-                                              context
-                                                  .read<CounterCubit>()
-                                                  .decrement();
-                                              context
-                                                  .read<CheckAnswerCubit>()
-                                                  .updateStatus(false, 0, true);
-                                              if (totalScore != 0) {
-                                                totalScore--;
-                                              }
-                                            },
-                                      width: 100,
-                                      backgroundColor: Colors.white,
-                                      child: Text(
-                                        'Back',
-                                        style: TextStyles.regular(
-                                            14, Colors.black),
+                              //Begin display of buttons
+
+                              BlocBuilder<CounterCubit, int>(
+                                builder: (context, state) => Padding(
+                                  padding: const EdgeInsets.only(
+                                      bottom: 20, right: 10, left: 10),
+                                  child: Row(
+                                    mainAxisAlignment:
+                                        MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      CustomButton(
+                                        function: (state == 0)
+                                            ? null
+                                            : () {
+                                                context
+                                                    .read<CounterCubit>()
+                                                    .decrement();
+                                                context
+                                                    .read<CheckAnswerCubit>()
+                                                    .updateStatus(false, 0, true);
+                                                if (totalScore != 0) {
+                                                  totalScore--;
+                                                }
+                                              },
+                                        width: 100,
+                                        backgroundColor: Colors.white,
+                                        child: Text(
+                                          'Back',
+                                          style: TextStyles.regular(
+                                              14, Colors.black),
+                                        ),
                                       ),
-                                    ),
-                                    CustomButton(
-                                      function: () {
-                                        if (state == questionsMap.length - 1) {
-                                          // if we reached the end of the list
-                                          // of questions.
+                                      CustomButton(
+                                        function: () {
+                                          if (state == questionsMap.length - 1) {
+                                            // if we reached the end of the list
+                                            // of questions.
 
-                                          //stop the timer
-                                          context
-                                              .read<CountDownTimerCubit>()
-                                              .close();
-                                          countDownTimerCubit.close();
+                                            //stop the timer
+                                            context
+                                                .read<CountDownTimerCubit>()
+                                                .close();
+                                            countDownTimerCubit.close();
 
-                                          //Show the dialog
-                                          showDialog(
-                                              context: context,
-                                              barrierDismissible: false,
-                                              builder: (builder) {
-                                                print(
-                                                    'the total score is $totalScore');
-                                                return totalScoreDialog(
-                                                    context: context,
-                                                    totalScore: totalScore);
-                                              });
-                                        } else {
-                                          context
-                                              .read<CounterCubit>()
-                                              .increment();
-                                          // context.read<
-                                          //     CheckAnswerCubit>.updateState();
-                                          context
-                                              .read<CheckAnswerCubit>()
-                                              .updateStatus(false, 0, true);
-                                          int answerIndex = context
-                                              .read<CheckAnswerCubit>()
-                                              .viewStatus()
-                                              .chosenAnswerIndex;
-                                          if (answerIndex ==
-                                              int.tryParse(questionsMap[state]
-                                                  ['answerIndex'])) {
-                                            // if chosen answer is correct
-                                            totalScore++;
-                                            print(
-                                                "the total scrore is $totalScore");
+                                            //Show the dialog
+                                            showDialog(
+                                                context: context,
+                                                barrierDismissible: false,
+                                                builder: (builder) {
+                                                  print(
+                                                      'the total score is $totalScore');
+                                                  return totalScoreDialog(
+                                                      context: context,
+                                                      totalScore: totalScore);
+                                                });
                                           } else {
-                                            // if chosen answer is wrong.
-                                            if (totalScore != 0) {
-                                              totalScore--;
+                                            context
+                                                .read<CounterCubit>()
+                                                .increment();
+                                            // context.read<
+                                            //     CheckAnswerCubit>.updateState();
+                                            context
+                                                .read<CheckAnswerCubit>()
+                                                .updateStatus(false, 0, true);
+                                            int answerIndex = context
+                                                .read<CheckAnswerCubit>()
+                                                .viewStatus()
+                                                .chosenAnswerIndex;
+                                            if (answerIndex ==
+                                                int.tryParse(questionsMap[state]
+                                                    ['answerIndex'])) {
+                                              // if chosen answer is correct
+                                              totalScore++;
                                               print(
                                                   "the total scrore is $totalScore");
+                                            } else {
+                                              // if chosen answer is wrong.
+                                              if (totalScore != 0) {
+                                                totalScore--;
+                                                print(
+                                                    "the total scrore is $totalScore");
+                                              }
                                             }
                                           }
-                                        }
-                                      },
-                                      width: 100,
-                                      backgroundColor: AppColors.purple,
-                                      child: Text(
-                                          (state == questionsMap.length - 1)
-                                              ? 'Submit'
-                                              : 'Next'),
-                                    ),
-                                  ],
+                                        },
+                                        width: 100,
+                                        backgroundColor: AppColors.purple,
+                                        child: Text(
+                                            (state == questionsMap.length - 1)
+                                                ? 'Submit'
+                                                : 'Next'),
+                                      ),
+                                    ],
+                                  ),
                                 ),
                               ),
-                            ),
 
-                            //End display of buttons
-                          ],
-                        ),
-                      );
-                    } else {
-                      return const Center(child: CircularProgressIndicator());
-                    }
-                  }),
-            ));
+                              //End display of buttons
+                            ],
+                          ),
+                        );
+                      } else {
+                        return const Center(child: CircularProgressIndicator());
+                      }
+                    }),
+              ),
+        ));
   }
 }

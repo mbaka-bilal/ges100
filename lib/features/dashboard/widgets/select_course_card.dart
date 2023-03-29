@@ -33,7 +33,7 @@ class SelectCourseCard extends StatelessWidget {
     return BlocBuilder<InterstitalAdCubit, InterstitialAd?>(
       builder: (context, state) => InkWell(
         onTap: () {
-          // context.read<InterstitalAdCubit>().loadInterstitialAd();
+          context.read<InterstitalAdCubit>().loadInterstitialAd();
           if (state != null) {
             state.show();
           }

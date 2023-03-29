@@ -26,20 +26,24 @@ class _SplashScreenState extends State<SplashScreen> {
     FDatabase fDatabase = FDatabase();
 
     try {
+      /* Communication in english */
       if (await fDatabase.checkIfTableExists('ges100') == false) {
         await FDatabase.createDatabaseAndTables('ges100');
       await fDatabase.addQuestionsToTable('ges100');
       }
 
-      if (await fDatabase.checkIfTableExists('ges102') == false) {
-        await FDatabase.createDatabaseAndTables('ges102');
-        await fDatabase.addQuestionsToTable('ges102');
+      /* Computer Appreciation */
+      if (await fDatabase.checkIfTableExists('ges101') == false) {
+        await FDatabase.createDatabaseAndTables('ges101');
+        await fDatabase.addQuestionsToTable('ges101');
       }
 
-      if (await fDatabase.checkIfTableExists('ges103') == false) {
-        await FDatabase.createDatabaseAndTables('ges103');
-        await fDatabase.addQuestionsToTable('ges103');
-      }
+      // if (await fDatabase.checkIfTableExists('ges102') == false) {
+      //   await FDatabase.createDatabaseAndTables('ges102');
+      //   await fDatabase.addQuestionsToTable('ges102');
+      // }
+
+
       // return true;
     } catch (e) {
       // print("Splash Screen: could not initialize questions $e");

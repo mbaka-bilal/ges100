@@ -17,13 +17,13 @@ import 'package:shared_preferences/shared_preferences.dart';
 // }
 
 class UserData {
-  static Future<int?> readData() async {
+  static Future<int?> readData(String tableName) async {
     final prefs = await SharedPreferences.getInstance();
-    return prefs.getInt("lastIndex");
+    return prefs.getInt("${tableName}lastIndex");
   }
 
-  static Future<void> setData(int index) async {
+  static Future<void> setData(int index,String tableName) async {
     final prefs = await SharedPreferences.getInstance();
-    await prefs.setInt("lastIndex",index);
+    await prefs.setInt("${tableName}lastIndex",index);
   }
 }
