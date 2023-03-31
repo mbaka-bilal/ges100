@@ -1082,5 +1082,288 @@ final List<Map<String, dynamic>> ges101 = [
     'options': 'move the mouse pointer to the line between the columns, left click holding down and drag to either left or right directions|move the mouse pointer to the line between the rows, left click holding down and drag to either left or right directions|move the mouse pointer away from the line between the columns, left click holding down and drag to either left or right directions|move the mouse pointer to the line away from columns, left click holding down and drag to either left or right directions|none of the above',
     'answer': 'move the mouse pointer to the line between the columns, left click holding down and drag to either left or right directions',
     'answerIndex': 0
+  },
+  {
+    'question': 'The network topology in which no central wiring is required is called',
+    'options': 'Bus|Ring|Mesh|Star|None of the above',
+    'answer': 'Ring',
+    'answerIndex': 1
+  },
+  {
+    "question": "Which of the following networks topology is easier to troubleshoot?",
+    "options": "LAN|WAN|MAN|Star|Ring",
+    "answer": "Star",
+    "answerIndex": 3
+  },
+  {
+    'question': 'The set of rules and procedures governing the transmission between two points in a network is called',
+    'options': 'internet|internet card|protocol|topology|none of the above',
+    'answer': 'protocol',
+    'answerIndex': 2
+  },
+  {
+    'question': '_________ is used to connect dissimilar network',
+    'options': 'Router|Hub|Switch|Gateways|B-game',
+    'answer': 'Gateways',
+    'answerIndex': 3
+  },
+  {
+    'question': 'The following are the uses of internet except',
+    'options': 'E-mail|E-book|Money|E-service|B-game',
+    'answer': 'B-game',
+    'answerIndex': 4
+  },
+  {
+    'question': 'A method of processing information in which transactions are accumulated and stored until a specific time is called',
+    'options': 'Late processing|Online processing|Batch processing|Immediate processing',
+    'answer': 'Batch processing',
+    'answerIndex': 2
+  },
+  {
+    'question': 'Data processing method include the following except',
+    'options': 'ordination|input|process|data capture|storage',
+    'answer': 'ordination',
+    'answerIndex': 0
+  },
+  {
+    'question': 'When 4bits are combined, it is called',
+    'options': 'Byte|Word|Nibble|Character|None of the above',
+    'answer': 'Nibble',
+    'answerIndex': 2
+  },
+  {
+    'question': 'A terabyte is equal to',
+    'options': '1,024 gigabytes|times gigabyte|megabyte',
+    'answer': '1,024 gigabytes',
+    'answerIndex': 0
+  },
+  {
+    'question': 'The batch processing and online processing fall under',
+    'options': 'Electronic method|Manual method|Mechanical method|All of the above|None of the above',
+    'answer': 'Electronic method',
+    'answerIndex': 0
+  },
+  {
+    'question': 'The DOS command tine is also called the',
+    'options': 'window|Internet command|command prompt|B & C|none of the above',
+    'answer': 'command prompt',
+    'answerIndex': 2
+  },
+  {
+    'question': 'The command used to copy files and directing trees is called',
+    'options': 'V copy|copy|Copy con|none of the above',
+    'answer': 'copy',
+    'answerIndex': 1
+  },
+  {
+    'question': 'Files deleted from flash goes into the',
+    'options': 'Recycle bin|my document|my computer|A & B|none of the above',
+    'answer': 'none of the above',
+    'answerIndex': 4
+  },
+  {
+    'question': 'Every time a window is opened, a button representing it appears on the',
+    'options': 'start button|task bar|title bar|desktop|all of the above',
+    'answer': 'task bar',
+    'answerIndex': 1
+  },
+  {
+    'question': 'The task bar contains start button and _____ area',
+    'options': 'Blue|Notification|Black|White|All of the above',
+    'answer': 'Notification',
+    'answerIndex': 1
+  },
+  {
+    'question': 'To view properties for the selected item, the following combinations of keys are used',
+    'options': 'Ctrl + z|Alt + Enter|F8+ A|none of the above',
+    'answer': 'Alt + Enter',
+    'answerIndex': 1
+  },
+  {
+    'question': 'A step by step method that is used to solve a problem is called',
+    'options': 'Algorithm|Flowchart|Program|Software|All',
+    'answer': 'Algorithm',
+    'answerIndex': 0
+  },
+  {
+    'question': 'Assembly language is _________ language',
+    'options': '1st generation|2nd generation|3rd generation|4th generation|All of the above',
+    'answer': '2nd generation',
+    'answerIndex': 1
+  },
+  {
+    'question': 'Instructions in first generation language are given using _____',
+    'options': 'Mnemonics|binary numbers|natural expressions|a & b|none of the above',
+    'answer': 'binary numbers',
+    'answerIndex': 1
+  },
+  {
+    'question': 'Ability of the operating system to perform several tasks parallel is called ____',
+    'options': 'Concurrence|Multitasking|Mono programming|None of the above|All of the above',
+    'answer': 'Concurrence',
+    'answerIndex': 0
+  },
+  {
+    'question': 'The temporary storage in the computer’s memory is called',
+    'options': 'Cache|Primary memory|Buffer|Flash|All',
+    'answer': 'Buffer',
+    'answerIndex': 2
+  },
+  {
+    'question': 'To store the current line for further editing _________ key is used',
+    'options': 'Fl|F2|F8|F2|F3',
+    'answer': 'F3',
+    'answerIndex': 4
+  },
+  {
+    'question': 'All are examples of internal DOS commands except',
+    'options': 'TYPE|VOL|DIR|COPY|all of the above|none of the above',
+    'answer': 'COPY',
+    'answerIndex': 3
+  },
+  {
+    'question': 'The extension name for general data files is',
+    'options': 'BAT|DCC|DAT|GDF|none of the above',
+    'answer': 'DAT',
+    'answerIndex': 2
+  },
+  {
+    'question': 'In a dialogue box _____ provides a list of toggle options',
+    'options': 'Drop-down lists boxes|Check boxes|Option button|A&B|None',
+    'answer': 'Check boxes',
+    'answerIndex': 1
+  },
+  {
+    'question': 'Every location in the computer memory has___________',
+    'options': 'Unique address|general address|primary address|secondary address|no address',
+    'answer': 'Unique address',
+    'answerIndex': 0
+  },
+  {
+    'question': 'The following are parts of window except',
+    'options': 'menu bar|tool bar|scroll bar|recycle bin|all of the above',
+    'answer': 'all of the above',
+    'answerIndex': 4
+  },
+  {
+    'question': 'The movement of full or part of document from one space to another leaving the original copy is called',
+    'options': 'cutting|copying|pasting|editing|all of the above',
+    'answer': 'copying',
+    'answerIndex': 1
+  },
+  {
+    'question': 'The screen of Microsoft word is made up of the following except',
+    'options': 'title bar|menu bar|standard toolbar|formatting toolbar|icon',
+    'answer': 'icon',
+    'answerIndex': 4
+  },
+  {
+    'question': 'The keyboard shortcut for replace is _____',
+    'options': 'Ctrl + F|Ctrl + G|Ctrl + H|All of the above|None of the above',
+    'answer': 'Ctrl + H',
+    'answerIndex': 2
+  },
+  {
+    'question': 'Groups of cells are called _____',
+    'options': 'formula addresses|range|excel|A & B|none of the above',
+    'answer': 'range',
+    'answerIndex': 1
+  },
+  {
+    'question': 'The smallest unit of a database is called',
+    'options': 'character|field|records|DBMS|none of the above',
+    'answer': 'character',
+    'answerIndex': 0
+  },
+  {
+    'question': 'The way data is stored in a database is called_____________',
+    'options': 'Logical view|Physical view|Schema|Subschema|None of the above',
+    'answer': 'Physical view',
+    'answerIndex': 1
+  },
+  {
+    'question': 'The first generation computers were generally very',
+    'options': 'good|unreliable|reliable|understandable|none',
+    'answer': 'unreliable',
+    'answerIndex': 1
+  },
+  {
+    'question': 'An integrated package comprising of several programs is called',
+    'options': 'Microsoft word|Windows|Icon|DOS|None',
+    'answer': 'Windows',
+    'answerIndex': 1
+  },
+  {
+    'question': 'The first and introductory screen of windows is called the_____',
+    'options': 'wall paper|screensaver|desktop|mouse|all',
+    'answer': 'desktop',
+    'answerIndex': 2
+  },
+  {
+    'question': 'The first and introductory screen of windows is called the_____',
+    'options': 'wallpaper|screensaver|desktop|mouse|all',
+    'answer': 'desktop',
+    'answerIndex': 2
+  },
+  {
+    'question': 'To prompt to cell address to be jumped to in Excel, press',
+    'options': 'F1|F2|F4|F6|none of the above',
+    'answer': 'F5',
+    'answerIndex': 3
+  },
+  {
+    'question': 'The arrangement of data in the computer memory is called',
+    'options': 'data processing|data capture|data integrity|data structure|none of the above',
+    'answer': 'data structure',
+    'answerIndex': 3
+  },
+  {
+    'question': 'Which of the following is true about data?',
+    'options': 'Data are processed facts|Data are information|Data are unprocessed|Information processed to give data|None of the above',
+    'answer': 'Data are unprocessed',
+    'answerIndex': 3
+  },
+  {
+    'question': 'The database offers the following capabilities except',
+    'options': 'inserting data|retrieving data|updating data|overwriting data|deleting data',
+    'answer': 'overwriting data',
+    'answerIndex': 3
+  },
+  {
+    'question': 'An operating system is also called ____________',
+    'options': 'Directory|Processor|Supervisor|File|none of the above',
+    'answer': 'Supervisor',
+    'answerIndex': 3
+  },
+  {
+    'question': 'One of these is not a first-generation computer',
+    'options': 'ENIAC|ABC|IBM 300|UNIVAC|Mark I',
+    'answer': 'IBM 300',
+    'answerIndex': 2
+  },
+  {
+    'question': 'One of the following is not necessary in LAN',
+    'options': 'Modem|Adapter card|Cable|45|Hub',
+    'answer': 'Modem',
+    'answerIndex': 0
+  },
+  {
+    'question': 'A secondary memory with storage of 10.2MB is equivalent to how many characters',
+    'options': '102000|10200000|102000000|1020000000|11200000',
+    'answer': '10200000',
+    'answerIndex': 2
+  },
+  {
+    'question': 'Which of the following operating system is suitable for networking',
+    'options': 'Windows 31|Windows 95|Windows NT|Windows 2000|Disk Operating System',
+    'answer': 'Windows NT',
+    'answerIndex': 2
+  },
+  {
+    'question': 'The following are examples of database management systems except',
+    'options': 'oracle|MS Excel|super base 2|MS ACCESS|Mysol',
+    'answer': 'MS Excel',
+    'answerIndex': 1
   }
+
 ];
