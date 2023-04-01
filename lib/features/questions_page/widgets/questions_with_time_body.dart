@@ -57,7 +57,7 @@ class _BuildBodyState extends State<BuildBody> {
   Widget build(BuildContext context) {
     return LayoutBuilder(
         builder: (context, boxConstrants) => SingleChildScrollView(
-          child: ConstrainedBox(
+              child: ConstrainedBox(
                 constraints: BoxConstraints(
                   minHeight: boxConstrants.maxHeight,
                 ),
@@ -67,9 +67,10 @@ class _BuildBodyState extends State<BuildBody> {
                       if (snapShot.hasData) {
                         List<Map<String, dynamic>> result =
                             snapShot.data as List<Map<String, dynamic>>;
-                        List<Map<String, dynamic>> shuffledQuestions = result.toList()
-                          ..shuffle();
-                        List<Map<String,dynamic>> questionsMap = shuffledQuestions.sublist(0,70);
+                        List<Map<String, dynamic>> shuffledQuestions =
+                            result.toList()..shuffle();
+                        List<Map<String, dynamic>> questionsMap =
+                            shuffledQuestions.sublist(0, 70);
                         return Padding(
                           padding: const EdgeInsets.all(10),
                           child: Column(
@@ -153,15 +154,16 @@ class _BuildBodyState extends State<BuildBody> {
                                   children: [
                                     Text(
                                       'Question ${state + 1}/${questionsMap.length}',
-                                      style:
-                                          TextStyles.semiBold(20, Colors.black45),
+                                      style: TextStyles.semiBold(
+                                          20, Colors.black45),
                                     ),
                                     const SizedBox(
                                       height: 20,
                                     ),
                                     Container(
                                       height:
-                                          MediaQuery.of(context).size.height / 2,
+                                          MediaQuery.of(context).size.height /
+                                              2,
                                       padding: const EdgeInsets.symmetric(
                                           horizontal: 15),
                                       child: Card(
@@ -180,7 +182,8 @@ class _BuildBodyState extends State<BuildBody> {
                                                     const EdgeInsets.symmetric(
                                                         horizontal: 8.0),
                                                 child: Text(
-                                                  questionsMap[state]['question'],
+                                                  questionsMap[state]
+                                                      ['question'],
                                                   style: TextStyles.medium(
                                                       20, Colors.black),
                                                 ),
@@ -207,7 +210,7 @@ class _BuildBodyState extends State<BuildBody> {
                               }),
                               //End question and answer display
 
-                              BannerAdWidget(),
+                              const BannerAdWidget(),
 
                               //Begin display of buttons
 
@@ -228,7 +231,8 @@ class _BuildBodyState extends State<BuildBody> {
                                                     .decrement();
                                                 context
                                                     .read<CheckAnswerCubit>()
-                                                    .updateStatus(false, 0, true);
+                                                    .updateStatus(
+                                                        false, 0, true);
                                                 if (totalScore != 0) {
                                                   totalScore--;
                                                 }
@@ -243,7 +247,38 @@ class _BuildBodyState extends State<BuildBody> {
                                       ),
                                       CustomButton(
                                         function: () {
-                                          if (state == questionsMap.length - 1) {
+                                          //End the test.
+
+                                          //stop the timer
+                                          context
+                                              .read<CountDownTimerCubit>()
+                                              .close();
+                                          countDownTimerCubit.close();
+
+                                          //Show the dialog
+                                          showDialog(
+                                              context: context,
+                                              barrierDismissible: false,
+                                              builder: (builder) {
+                                                print(
+                                                    'the total score is $totalScore');
+                                                return totalScoreDialog(
+                                                    context: context,
+                                                    totalScore: totalScore);
+                                              });
+                                        },
+                                        width: 100,
+                                        backgroundColor: Colors.green,
+                                        child: Text(
+                                          'Submit',
+                                          style: TextStyles.regular(
+                                              14, Colors.black),
+                                        ),
+                                      ),
+                                      CustomButton(
+                                        function: () {
+                                          if (state ==
+                                              questionsMap.length - 1) {
                                             // if we reached the end of the list
                                             // of questions.
 
@@ -315,6 +350,6 @@ class _BuildBodyState extends State<BuildBody> {
                       }
                     }),
               ),
-        ));
+            ));
   }
 }
