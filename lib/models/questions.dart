@@ -1364,6 +1364,127 @@ final List<Map<String, dynamic>> ges101 = [
     'options': 'oracle|MS Excel|super base 2|MS ACCESS|Mysol',
     'answer': 'MS Excel',
     'answerIndex': 1
+  },
+  {
+    'question': 'Windows is _________',
+    'options': 'not an operating system|behaves like an operating system|command driven|part of an operating system|none of the above',
+    'answer': 'none of the above',
+    'answerIndex': 4
+  },
+  {
+    'question': 'One of the following is not harmful to the computer',
+    'options': 'spyware|virus|PO-culling|Worm|Trojan',
+    'answer': 'PO-culling',
+    'answerIndex': 2
+  },
+  {
+    'question': 'Which of the following is not a LAN Topology',
+    'options': 'Bus|Star|door-to-door|Ring|Mesh',
+    'answer': 'door-to-door',
+    'answerIndex': 2
+  },
+  {
+    'question': 'One of the following is not necessary in LAN',
+    'options': 'Modem|Adapter card|cable|RJ 45|Hub',
+    'answer': 'Modem',
+    'answerIndex': 0
+  },
+  {
+    'question': 'A major distinction between LAN and WAN is ___________',
+    'options': 'distance apart|communication|Integrity|modem|all of the above',
+    'answer': 'all of the above',
+    'answerIndex': 4
+  },
+  {
+    'question': 'One of these is not a Presentation Graphics Software',
+    'options': 'Freelance|Excel|Power Point|Corel Draw|none',
+    'answer': 'Excel',
+    'answerIndex': 1
+  },
+  {
+    'question': 'Which of the following factors is responsible for the rise of the Internet’s popularity',
+    'options': 'the World Wide Web|the elimination of barriers to commercial activity on the internet|online service providers|A and B above|all',
+    'answer': 'all',
+    'answerIndex': 4
+  },
+  {
+    'question': 'The FORMAT command in addition to preparing the disk for use also',
+    'options': 'adds information to the disk|deletes every content of the disk|arrange all files in the in order|compresses the content of the disk|none of the above',
+    'answer': 'deletes every content of the disk',
+    'answerIndex': 1
+  },
+  {
+    'question': 'The function of the command DIR EXE is to',
+    'options': 'write all files to the disk|display every file in the disk|display only file with extension|display files not having extension.EXE|none of the above',
+    'answer': 'display only file with extension',
+    'answerIndex': 2
+  },
+  {
+    'question': 'One of the following enhances windows operations',
+    'options': 'Keyboard|Light pen|Mouse|Joystick|None of the above',
+    'answer': 'Mouse',
+    'answerIndex': 2
+  },
+  {
+    'question': 'In windows application the background of the desktop is called',
+    'options': 'title bar|stack bar|wall paper|screen saver|none',
+    'answer': 'wall paper',
+    'answerIndex': 2
+  },
+  {
+    'question': 'The earliest forerunner of modern digital computer is',
+    'options': 'Abacus|Main|Desktop|Laptop|IBM',
+    'answer': 'Abacus',
+    'answerIndex': 0
+  },
+  {
+    'question': 'The first electronic known computer is called',
+    'options': 'Punch card|Digital computer|ENIAC|IBM|None of the above',
+    'answer': 'ENIAC',
+    'answerIndex': 2
+  },
+  {
+    'question': 'The second-generation operating system supported',
+    'options': 'single processing|batch processing|multi programmed system|my document|none of a, b, C',
+    'answer': 'multi programmed system',
+    'answerIndex': 3
+  },
+  {
+    'question': 'A manager of a database is called',
+    'options': 'BDA|DBMA|DBP|Data base manager|none of a,b,c or d',
+    'answer': 'Data base manager',
+    'answerIndex': 3
+  },
+  {
+    'question': 'A modem is normally required in',
+    'options': 'PAN|LAN|multiplexer|Wide area Network|none of the above',
+    'answer': 'Wide area Network',
+    'answerIndex': 3
+  },
+  {
+    'question': 'The circuit devices that dominated first generation computers is called',
+    'options': 'Diode|Integrated Circuit|Translator|Vacuum tubes|None of the above',
+    'answer': 'Vacuum tubes',
+    'answerIndex': 3
+  },
+  {
+    'question': 'The third generation computers were built using',
+    'options': 'SSI circuit|MSI circuit|LSI circuit|VLSI circuits|none',
+    'answer': 'LSI circuit',
+    'answerIndex': 3
+  },
+  {
+    'question': 'A device that enables computer user to save work after a power failure is',
+    'options': 'modern|scanner|stabilizer|UPS|none of the above',
+    'answer': 'UPS',
+    'answerIndex': 3
+  },
+  {
+    'question': 'Data and program instructions which are being processed by the computer are held in',
+    'options': 'hard disk|control unit|main memory|ALU|none of the above',
+    'answer': 'main memory',
+    'answerIndex': 2
   }
+
 
 ];
