@@ -22,8 +22,8 @@ class UserData {
     return prefs.getInt("${tableName}lastIndex");
   }
 
-  static Future<void> setData(int index,String tableName) async {
+  static Future<void> setData(int index, String tableName) async {
     final prefs = await SharedPreferences.getInstance();
-    await prefs.setInt("${tableName}lastIndex",index);
+    await prefs.setInt("${tableName}lastIndex", index);
   }
 }

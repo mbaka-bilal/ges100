@@ -60,6 +60,7 @@ dependencies:
 
   #Alert users about new version
   upgrader: ^6.2.0
+  in_app_update: ^4.0.1
 
 
 flutter_icons:

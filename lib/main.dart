@@ -6,7 +6,7 @@ import '/services/f_ads.dart';
 import '/features/onboarding/screens/splash_screen.dart';
 
 void main() async {
-  await WidgetsFlutterBinding.ensureInitialized();
+  WidgetsFlutterBinding.ensureInitialized();
   await Upgrader.clearSavedSettings();
   runApp(const MyApp());
 }
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    final appCastURL =
+    const appCastURL =
         'https://raw.githubusercontent.com/mbaka-bilal/appCast/main/appCast.xml';
     final cfg = AppcastConfiguration(url: appCastURL, supportedOS: ['android']);
 
@@ -34,6 +34,8 @@ class MyApp extends StatelessWidget {
         home: UpgradeAlert(
             upgrader: Upgrader(
               appcastConfig: cfg,
+              durationUntilAlertAgain: const Duration(days: 1),
+              debugDisplayOnce: true,
               debugLogging: true,
               canDismissDialog: true,
             ),

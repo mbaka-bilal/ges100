@@ -16,21 +16,15 @@ class Body extends StatelessWidget {
   ///
   ///
 
-  const Body({
-    Key? key,
-    required this.tableName
-  }) : super(key: key);
-
-
+  const Body({Key? key, required this.tableName}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     Future<List<Map<String, dynamic>>> future =
-    FDatabase.fetchQuestions(tableName);
+        FDatabase.fetchQuestions(tableName);
 
     return LayoutBuilder(
-      builder: (context,boxConstraints) =>
-      SingleChildScrollView(
+      builder: (context, boxConstraints) => SingleChildScrollView(
         child: ConstrainedBox(
           constraints: BoxConstraints(
             minHeight: boxConstraints.maxHeight,
@@ -77,7 +71,8 @@ class Body extends StatelessWidget {
                                 padding: const EdgeInsets.all(8.0),
                                 child: Text(
                                   'Question ${state + 1}/${questionsMap.length}',
-                                  style: TextStyles.semiBold(20, Colors.black45),
+                                  style:
+                                      TextStyles.semiBold(20, Colors.black45),
                                 ),
                               ),
                               const SizedBox(
@@ -85,7 +80,8 @@ class Body extends StatelessWidget {
                               ),
                               Container(
                                 height: MediaQuery.of(context).size.height / 2,
-                                padding: const EdgeInsets.symmetric(horizontal: 15),
+                                padding:
+                                    const EdgeInsets.symmetric(horizontal: 15),
                                 child: Card(
                                   color: Colors.white,
                                   shape: RoundedRectangleBorder(
@@ -101,8 +97,8 @@ class Body extends StatelessWidget {
                                               horizontal: 8.0),
                                           child: Text(
                                             questionsMap[state]['question'],
-                                            style:
-                                                TextStyles.medium(20, Colors.black),
+                                            style: TextStyles.medium(
+                                                20, Colors.black),
                                           ),
                                         ),
                                         const SizedBox(
@@ -111,9 +107,10 @@ class Body extends StatelessWidget {
                                         ...List.generate(
                                             options.length,
                                             (index) => CustomRadioButton(
-                                                correctAnswerIndex: int.tryParse(
-                                                    questionsMap[state]
-                                                        ['answerIndex'])!,
+                                                correctAnswerIndex:
+                                                    int.tryParse(
+                                                        questionsMap[state]
+                                                            ['answerIndex'])!,
                                                 buttonIndex: index,
                                                 question: options[index]))
                                       ],
@@ -135,8 +132,9 @@ class Body extends StatelessWidget {
                           final Widget displayIcon;
 
                           if (state.shouldCheckAnswer) {
-                            if (((questionsMap[context.read<CounterCubit>().state]
-                                        ['answerIndex'])
+                            if (((questionsMap[context
+                                        .read<CounterCubit>()
+                                        .state]['answerIndex'])
                                     .toString() ==
                                 (state.chosenAnswerIndex).toString())) {
                               displayIcon = const FaIcon(
@@ -161,27 +159,36 @@ class Body extends StatelessWidget {
                                   ? BlocBuilder<CounterCubit, int>(
                                       builder: ((context, state) => Padding(
                                             padding: const EdgeInsets.only(
-                                                bottom: 20, right: 10, left: 10),
+                                                bottom: 20,
+                                                right: 10,
+                                                left: 10),
                                             child: Row(
                                               mainAxisAlignment:
                                                   MainAxisAlignment.end,
                                               children: [
                                                 CustomButton(
                                                   function: (state ==
-                                                          questionsMap.length - 1)
+                                                          questionsMap.length -
+                                                              1)
                                                       ? null
                                                       : () {
                                                           context
-                                                              .read<CounterCubit>()
-                                                              .increment(tableName: tableName);
+                                                              .read<
+                                                                  CounterCubit>()
+                                                              .increment(
+                                                                  tableName:
+                                                                      tableName);
                                                           context
                                                               .read<
                                                                   CheckAnswerCubit>()
                                                               .updateStatus(
-                                                                  false, 0, true);
+                                                                  false,
+                                                                  0,
+                                                                  true);
                                                         },
                                                   width: 100,
-                                                  backgroundColor: AppColors.purple,
+                                                  backgroundColor:
+                                                      AppColors.purple,
                                                   child: const Text('Next'),
                                                 ),
                                               ],
@@ -202,9 +209,12 @@ class Body extends StatelessWidget {
                                                   : () {
                                                       context
                                                           .read<CounterCubit>()
-                                                          .decrement(tableName: tableName);
+                                                          .decrement(
+                                                              tableName:
+                                                                  tableName);
                                                       context
-                                                          .read<CheckAnswerCubit>()
+                                                          .read<
+                                                              CheckAnswerCubit>()
                                                           .updateStatus(
                                                               false, 0, true);
                                                     },
@@ -220,25 +230,28 @@ class Body extends StatelessWidget {
                                           BlocBuilder<CounterCubit, int>(
                                             builder: (context, counterState) =>
                                                 CustomButton(
-                                                  function: (counterState == 0)
-                                                      ? null
-                                                      : () {
-                                                    context
-                                                        .read<CounterCubit>()
-                                                        .jumpToTop(tableName: tableName);
-                                                    context
-                                                        .read<CheckAnswerCubit>()
-                                                        .updateStatus(
-                                                        false, 0, true);
-                                                  },
-                                                  width: 100,
-                                                  backgroundColor: Colors.green,
-                                                  child: Text(
-                                                    'To Top',
-                                                    style: TextStyles.regular(
-                                                        14, Colors.black),
-                                                  ),
-                                                ),
+                                              function: (counterState == 0)
+                                                  ? null
+                                                  : () {
+                                                      context
+                                                          .read<CounterCubit>()
+                                                          .jumpToTop(
+                                                              tableName:
+                                                                  tableName);
+                                                      context
+                                                          .read<
+                                                              CheckAnswerCubit>()
+                                                          .updateStatus(
+                                                              false, 0, true);
+                                                    },
+                                              width: 100,
+                                              backgroundColor: Colors.green,
+                                              child: Text(
+                                                'To Top',
+                                                style: TextStyles.regular(
+                                                    14, Colors.black),
+                                              ),
+                                            ),
                                           ),
                                           CustomButton(
                                             function: () {
@@ -247,7 +260,8 @@ class Body extends StatelessWidget {
                                                   .updateStatus(
                                                     true,
                                                     context
-                                                        .read<CheckAnswerCubit>()
+                                                        .read<
+                                                            CheckAnswerCubit>()
                                                         .state
                                                         .chosenAnswerIndex,
                                                     false,
@@ -257,7 +271,6 @@ class Body extends StatelessWidget {
                                             backgroundColor: AppColors.purple,
                                             child: const Text('Check Answer'),
                                           ),
-
                                         ],
                                       ),
                                     )
