@@ -601,6 +601,181 @@ final List<Map<String, dynamic>> ges103 = [
   },
 ];
 
+final List<Map<String, dynamic>> ges300 = [
+  {
+    'id': 0,
+    'question': 'Niche central entrepreneurs are ___________________',
+    'options':
+        'Small segment of customers|Group of customers|All of the above|Large segment of the customers|None of the above',
+    'answer': 'Small segment of customers',
+    'answerIndex': 0
+  },
+  {
+    'id': 1,
+    'question': 'The lowering of costs through production of larger quantities',
+    'options':
+        'Outsourcing|Niche marketing|Economy of scale|Al of the above|Return on quantity',
+    'answer': 'Economy of scale',
+    'answerIndex': 2
+  },
+  {
+    'id': 2,
+    'question':
+        'Business practice focusing on small groups of people is called_________________',
+    'options': 'Small business|Niche marketing|Diversity|Innovation|None',
+    'answer': 'Niche marketing',
+    'answerIndex': 1
+  },
+  {
+    'id': 3,
+    'question':
+        'Incremental improvement of a product is synonymous to _________________',
+    'options':
+        'Total quality management|Return on quality|Economy of scale|All of the above|None',
+    'answer': 'Return on quality',
+    'answerIndex': 1
+  },
+  {
+    'id': 4,
+    'question':
+        'The reason for business failure is most commonly ________________________',
+    'options': 'External|Inexperience|Internal|Governmental|None',
+    'answer': 'Internal',
+    'answerIndex': 2
+  },
+  {
+    'id': 5,
+    'question':
+        'The entrepreneurship process begins with ________________________',
+    'options':
+        'Feasibility study|Survey|Innovative idea|Triggering event|All of the above',
+    'answer': 'Innovative idea',
+    'answerIndex': 2
+  },
+  {
+    'id': 6,
+    'question':
+        'As an entrepreneur, with which of the following do you tend to ‘fall in love’ too quickly?',
+    'options':
+        'New manufacturing ideas|New product ideas|New financial plans|New employees|Al of the above',
+    'answer': 'New product ideas',
+    'answerIndex': 1
+  },
+  {
+    'id': 7,
+    'question': 'Prerequisites of becoming a successful entrepreneur include',
+    'options':
+        'Passion|Determination|Deep knowledge|All of the above|None of the above',
+    'answer': 'All of the above',
+    'answerIndex': 3
+  },
+  {
+    'id': 8,
+    'question':
+        'Entrepreneur’s goals state where he/she wants to be, rather than how to get there. This is why goals are written in terms of ________________________',
+    'options': 'A time frame|Outcome|Challenge|Personnel|None of the above',
+    'answer': 'Outcome',
+    'answerIndex': 1
+  },
+  {
+    'id': 9,
+    'question':
+        'The reason that an entrepreneur’s business exists and the thing that the business does better than everyone else is',
+    'options':
+        'Opportunity|Competitive advantage|Control system|Competitive analysis|None of the above',
+    'answer': 'Competitive advantage',
+    'answerIndex': 1
+  },
+  {
+    'id': 10,
+    'question': 'Individual ethics in the workplace are affected by',
+    'options':
+        'Past experiences|Ethical principles|Organisational culture|All of the above|None of the above',
+    'answer': 'All of the above',
+    'answerIndex': 3
+  },
+  {
+    'id': 11,
+    'question':
+        'The primary reason for writing business plans is ____________________',
+    'options':
+        'To attract capital for a start up|To make profit|To avoid risk|To make market survey|None of the above',
+    'answer': 'To attract capital for a start up',
+    'answerIndex': 0
+  },
+  {
+    'id': 12,
+    'question':
+        'A one-time payment made to become a franchise is ______________________',
+    'options':
+        'Disclosure fee|Franchisor fee|Franchise fee|Franchisee fee|Royalty fee',
+    'answer': 'Franchise fee',
+    'answerIndex': 2
+  },
+  {
+    'id': 13,
+    'question': 'The on-going payments that franchisees pay to franchisors is',
+    'options':
+        'Franchisee fee|Royalty fee|Franchise agreement fee|All of the above|None of the above',
+    'answer': 'Royalty fee',
+    'answerIndex': 1
+  },
+  {
+    'id': 14,
+    'question':
+        'A type of franchise that represents a turnkey approach is called',
+    'options':
+        'Business format franchise|Due diligence franchise|Product franchise|Royalty franchise|None of the above',
+    'answer': 'Business format franchise',
+    'answerIndex': 0
+  },
+  {
+    'id': 15,
+    'question':
+        'Business valuation method based on worth of its assets is called',
+    'options':
+        'Income statement|Business broker|Balance sheet|Business audit|None of the above',
+    'answer': 'None of the above',
+    'answerIndex': 4
+  },
+  {
+    'id': 16,
+    'question':
+        'Entrepreneur’s cash flow equals ______________________________',
+    'options':
+        'Liabilities plus owner’s equity|Liability minus expenses|Receipts plus owner’s equity|Receipts minus disbursements|All of the above',
+    'answer': 'Receipts minus disbursements',
+    'answerIndex': 3
+  },
+  {
+    'id': 17,
+    'question':
+        'The reason that an entrepreneur’s business exists and the thing that the\nbusiness does\nbetter than everyone else is____________________________________',
+    'options':
+        'Opportunity|Competitive advantage|Control system|Competitive analysis|None of the above',
+    'answer': 'Competitive advantage',
+    'answerIndex': 1
+  },
+  {
+    'id': 18,
+    'question':
+        'A wealthy, experienced individual entrepreneur who loans money to other business owner________',
+    'options':
+        'Equity financier|Debt financier|Angels|Trade credit|None of the above',
+    'answer': 'Angels',
+    'answerIndex': 2
+  },
+  {
+    'id': 19,
+    'question':
+        'Psychological pricing strategy used with goods whose quality is difficult to determine by inspection is called __________________________________',
+    'options':
+        'Prestige pricing|Reference pricing|Price lining|Odd pricing|None of the above',
+    'answer': 'Prestige pricing',
+    'answerIndex': 0
+  }
+];
+
 /* Computer Appreciation */
 final List<Map<String, dynamic>> ges101 = [
   {
