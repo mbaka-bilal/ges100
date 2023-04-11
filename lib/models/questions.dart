@@ -773,7 +773,410 @@ final List<Map<String, dynamic>> ges300 = [
         'Prestige pricing|Reference pricing|Price lining|Odd pricing|None of the above',
     'answer': 'Prestige pricing',
     'answerIndex': 0
+  },
+  {
+    "id": 20,
+    "question":
+        "Psychological pricing strategy used with goods whose quality is difficult to determine by inspection is called",
+    "options":
+        "Prestige pricing|Reference pricing|Price lining|Odd pricing|None of the above",
+    "answer": "Prestige pricing",
+    "answerIndex": 0
+  },
+  {
+    "id": 21,
+    "question":
+        "Setting the price of a product in a way that will alter its perception by customers is",
+    "options":
+        "Prestige pricing|Reference pricing|Psychological pricing|Price lining|Odd pricing",
+    "answer": "Psychological pricing",
+    "answerIndex": 2
+  },
+  {
+    "id": 22,
+    "question":
+        "The process of gathering all information about a particular job is called",
+    "options":
+        "Job description|Job analysis|Job specification|Job orientation|None of the above",
+    "answer": "Job analysis",
+    "answerIndex": 1
+  },
+  {
+    "id": 23,
+    "question":
+        "Direct sales promotion methods in Entrepreneurship include the following except ___",
+    "options":
+        "Public relations|Publicity|Special event sales|Manufacturer’s acts|None of the above",
+    "answer": "Manufacturer’s acts",
+    "answerIndex": 3
+  },
+  {
+    "id": 24,
+    "question": "Which of the following is not a component of marketing mix",
+    "options": "Place|Physical existence|People|Price|None of the above",
+    "answer": "Physical existence",
+    "answerIndex": 1
+  },
+  {
+    "id": 25,
+    "question":
+        "The strongest needs of an entrepreneur is called _______________",
+    "options":
+        "Having well established enterprise|Making good profits|Need for independence|Need for achievement|None of the above",
+    "answer": "Need for independence",
+    "answerIndex": 2
+  },
+  {
+    "id": 26,
+    "question": "In identifying opportunities, most entrepreneurs use",
+    "options":
+        "Complaints from friends|Informal mechanisms|Choice comments from associates|Formal mechanisms|All of the above",
+    "answer": "All of the above",
+    "answerIndex": 4
+  },
+  {
+    "id": 27,
+    "question":
+        "Which of the following options is/are most appropriate for successful intrapreneurship?",
+    "options":
+        "Appropriate leadership characteristic|Flexibility|Visionary|Working with corporate culture|All of the above",
+    "answer": "All of the above",
+    "answerIndex": 4
+  },
+  {
+    "id": 28,
+    "question":
+        "Entrepreneurial endeavours consist of the following elements except",
+    "options":
+        "Proactiveness|Self-renewal|New business venturing|Reactiveness|Innovativeness",
+    "answer": "Self-renewal",
+    "answerIndex": 1
+  },
+  {
+    "id": 29,
+    "question":
+        "The time period available for the entrepreneur to create new venture is",
+    "options":
+        "Lead time|Business safety time|Window of opportunity|Investment time|None of the above",
+    "answer": "Lead time",
+    "answerIndex": 0
+  },
+  {
+    "id": 30,
+    "question":
+        "Personal entrepreneurial skills components include the following, except",
+    "options":
+        "Negotiation ability|Persistence ability|Change Orientation ability|Implicit discipline ability|Risk taking ability",
+    "answer": "Change Orientation ability",
+    "answerIndex": 2
+  },
+  {
+    "id": 31,
+    "question":
+        "Money raised by venture capitalists entrepreneurs include the following, except __________________",
+    "options":
+        "Equity pool|Pension funds|Foreign investors|Endowment funds|None of the above",
+    "answer": "Pension funds",
+    "answerIndex": 1
+  },
+  {
+    "id": 32,
+    "question":
+        "An informal investor market that can finance an entrepreneur is called",
+    "options":
+        "Venture capitalist|A broker|Angels|Debt factorization market|None of the above",
+    "answer": "Angels",
+    "answerIndex": 2
+  },
+  {
+    "id": 33,
+    "question":
+        "The form of financial transaction market when money is formally obtained by a company is called _________________________",
+    "options":
+        "Angels|Deal structure|Leverage market|Liquidity market|None of the above",
+    "answer": "Liquidity market",
+    "answerIndex": 3
+  },
+  {
+    "id": 34,
+    "question":
+        "A middle ground between starting a business and buying a going concern is to ______",
+    "options":
+        "Involve friends in decisions|Invest and run a franchise|Involve an intraprenuer|Involve an entrepreneur|None of the above",
+    "answer": "Involve an intraprenuer",
+    "answerIndex": 2
+  },
+  {
+    "id": 35,
+    "question": "Emotions can help an intrapreneur to ______________",
+    "options":
+        "Succeed in achieving an integration of different aspects of his or her personality|Achieve group goal|Help entrepreneur in his business|Become an entrapreneur|None of the above",
+    "answer":
+        "None of the above",
+    "answerIndex": 4
+  },
+  {
+    "id": 36,
+    "question":
+        "Return on quality (ROQ) is not synonymous to the act of concentrating attention to produce quality in areas most important to customers.",
+    "options": "True|False",
+    "answer": "False",
+    "answerIndex": 1
+  },
+  {
+    "id": 37,
+    "question":
+        "The harvest stage of a business means when the entrepreneur removes him/herself from the business",
+    "options": "True|False",
+    "answer": "False",
+    "answerIndex": 1
+  },
+  {
+    "id": 38,
+    "question":
+        "An entrepreneurship locus of control does not mean his/her view and ability to determine own fate",
+    "options": "True|False",
+    "answer": "False",
+    "answerIndex": 1
+  },
+  {
+    "id": 39,
+    "question": "Entrepreneurs are born not made",
+    "options": "True|False",
+    "answer": "False",
+    "answerIndex": 1
+  },
+  {
+    "id": 40,
+    "question":
+        "The bargaining power of a buyer does not affect how much attitude you have in changing your prices",
+    "options": "True|False",
+    "answer": "False",
+    "answerIndex": 1
+  },
+  {
+    "id": 41,
+    "question":
+        "A franchise is a small business that pays fees and royalties for exclusive rights to local distribution of the product or service.",
+    "options": "True|False",
+    "answer": "True",
+    "answerIndex": 0
+  },
+  {
+    "id": 42,
+    "question": "Royalties are paid as a percentage of franchisee profits.",
+    "options": "True|False",
+    "answer": "True",
+    "answerIndex": 0
+  },
+  {
+    "id": 43,
+    "question":
+        "Serendipity means finding business opportunities the entrepreneur runs not looking for.",
+    "options": "True|False",
+    "answer": "True",
+    "answerIndex": 0
+  },
+  {
+    "id": 44,
+    "question":
+        "Locus of control is an entrepreneur’s attitude indicating the sense of direction",
+    "options": "True|False",
+    "answer": "False",
+    "answerIndex": 0
+  },
+  {
+    "id": 45,
+    "question": "Intrapreneurship is not synonymous to corporate venturing",
+    "options": "True|False",
+    "answer": "True",
+    "answerIndex": 0
+  },
+  {
+    "id": 46,
+    "question":
+        "Amicable intrapreneurial climate is a prerequisite to successful innovation",
+    "options": "True|False",
+    "answer": "True",
+    "answerIndex": 0
+  },
+  {
+    "id": 47,
+    "question":
+        "The potential entrepreneur desired company opportunity identification must precede the general idea",
+    "options": "True|False",
+    "answer": "True",
+    "answerIndex": 0
+  },
+  {
+    "id": 48,
+    "question": "A good intrapreneur makes everyone a hero",
+    "options": "True|False",
+    "answer": "False",
+    "answerIndex": 1
+  },
+  {
+    "id": 49,
+    "question": "Handling cash flow can be crucial to entrepreneurial success",
+    "options": "True|False",
+    "answer": "True",
+    "answerIndex": 0
+  },
+  {
+    "id": 50,
+    "question":
+        "In forming a new venture, recruiting those in the firm usually requires established departmental structure and reporting systems.",
+    "options": "True|False",
+    "answer": "False",
+    "answerIndex": 0
+  },
+  {
+    "id": 51,
+    "question":
+        "Opportunity parameters cannot be implied as barriers to entrepreneurs' new product creation and development",
+    "options": "True|False",
+    "answer": "False",
+    "answerIndex": 0
+  },
+  {
+    "id": 52,
+    "question":
+        "For sustainable economic development, the spirit of intrapreneurship must not be on a volunteer basis.",
+    "options": "True|False",
+    "answer": "True",
+    "answerIndex": 0
+  },
+  {
+    "id": 53,
+    "question":
+        "Entrepreneurs' time orientation does not emphasize on the long run, rather short run as applicable to managers.",
+    "options": "True|False",
+    "answer": "True",
+    "answerIndex": 0
+  },
+  {
+    "id": 54,
+    "question":
+        "Entrepreneurs have been found to be more educated than the general population.",
+    "options": "True|False",
+    "answer": "False",
+    "answerIndex": 1
+  },
+  {
+    "id": 55,
+    "question": "New business venturing can simulate corporate venturing",
+    "options": "True|False",
+    "answer": "True",
+    "answerIndex": 0
+  },
+  {
+    "id": 56,
+    "question":
+        "Due diligence is the process of deal evaluation in entrepreneurship",
+    "options": "True|False",
+    "answer": "True",
+    "answerIndex": 0
+  },
+  {
+    "id": 57,
+    "question": "Small business owners are entrepreneurs",
+    "options": "True|False",
+    "answer": "True",
+    "answerIndex": 0
+  },
+  {
+    "id": 58,
+    "question":
+        "A business incubator is an organization designed to accelerate the growth and success of entrepreneurial companies",
+    "options": "True|False",
+    "answer": "True",
+    "answerIndex": 0
+  },
+  {
+    "id": 59,
+    "question": "Entrepreneurial personalities seem to be easily bored",
+    "options": "True|False",
+    "answer": "False",
+    "answerIndex": 1
+  },
+  {
+    "id": 60,
+    "question": "Stubbornness as a child cannot translate to determinations of being an entrepreneur",
+    "options": "True|False",
+    "answer": "True",
+    "answerIndex": 0
+  },
+  {
+    "id": 61,
+    "question": "Handling cash flow can be crucial to entrepreneurial success",
+    "options": "True|False",
+    "answer": "True",
+    "answerIndex": 0
+  },
+  {
+    "id": 62,
+    "question": "The principle of affordable loss cannot deliver the entrepreneur from the conscious determination of amount of resources committed.",
+    "options": "True|False",
+    "answer": "True",
+    "answerIndex": 0
+  },
+  {
+    "id": 63,
+    "question": "A bias toward quick entrepreneurial action increases the probability of creating a business but decreases the probability of success",
+    "options": "True|False",
+    "answer": "True",
+    "answerIndex": 0
+  },
+  {
+    "id": 64,
+    "question": "The dilemma facing political entrepreneurs can be summed up by this saying 'paralysed by analysis and extinction by instinct.'",
+    "options": "True|False",
+    "answer": "True",
+    "answerIndex": 0
+  },
+  {
+    "id": 65,
+    "question": "Entrepreneurs are not likely to overestimate their income and under-estimate their costs",
+    "options": "True|False",
+    "answer": "False",
+    "answerIndex": 1
+  },
+  {
+    "id": 66,
+    "question": "Entrepreneurs which produce only one product at a time has the advantage of being able to use a continuous-production layout.",
+    "options": "True|False",
+    "answer": "True",
+    "answerIndex": 0
+  },
+  {
+    "id": 67,
+    "question": "A perfectly moral entrepreneur would never allow the pull of emotion to cause him or her to act in less than entirely unreasonable manner",
+    "options": "True|False",
+    "answer": "False",
+    "answerIndex": 1
+  },
+  {
+    "id": 68,
+    "question": "Disciplining and controlling entrepreneurial motion is often hard work",
+    "options": "True|False",
+    "answer": "True",
+    "answerIndex": 0
+  },
+  {
+    "id": 69,
+    "question": "In choosing an entrepreneurial projects, emotions play more important role than intelligence",
+    "options": "True|False",
+    "answer": "False",
+    "answerIndex": 1
+  },
+  {
+    "id": 70,
+    "question": "Provision of different economic satisfaction is not innovation",
+    "options": "True|False",
+    "answer": "False",
+    "answerIndex": 1
   }
+
 ];
 
 /* Computer Appreciation */
