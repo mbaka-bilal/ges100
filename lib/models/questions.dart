@@ -911,8 +911,7 @@ final List<Map<String, dynamic>> ges300 = [
     "question": "Emotions can help an intrapreneur to ______________",
     "options":
         "Succeed in achieving an integration of different aspects of his or her personality|Achieve group goal|Help entrepreneur in his business|Become an entrapreneur|None of the above",
-    "answer":
-        "None of the above",
+    "answer": "None of the above",
     "answerIndex": 4
   },
   {
@@ -1101,7 +1100,8 @@ final List<Map<String, dynamic>> ges300 = [
   },
   {
     "id": 60,
-    "question": "Stubbornness as a child cannot translate to determinations of being an entrepreneur",
+    "question":
+        "Stubbornness as a child cannot translate to determinations of being an entrepreneur",
     "options": "True|False",
     "answer": "True",
     "answerIndex": 0
@@ -1115,68 +1115,303 @@ final List<Map<String, dynamic>> ges300 = [
   },
   {
     "id": 62,
-    "question": "The principle of affordable loss cannot deliver the entrepreneur from the conscious determination of amount of resources committed.",
+    "question":
+        "The principle of affordable loss cannot deliver the entrepreneur from the conscious determination of amount of resources committed.",
     "options": "True|False",
     "answer": "True",
     "answerIndex": 0
   },
   {
     "id": 63,
-    "question": "A bias toward quick entrepreneurial action increases the probability of creating a business but decreases the probability of success",
+    "question":
+        "A bias toward quick entrepreneurial action increases the probability of creating a business but decreases the probability of success",
     "options": "True|False",
     "answer": "True",
     "answerIndex": 0
   },
   {
     "id": 64,
-    "question": "The dilemma facing political entrepreneurs can be summed up by this saying 'paralysed by analysis and extinction by instinct.'",
+    "question":
+        "The dilemma facing political entrepreneurs can be summed up by this saying 'paralysed by analysis and extinction by instinct.'",
     "options": "True|False",
     "answer": "True",
     "answerIndex": 0
   },
   {
     "id": 65,
-    "question": "Entrepreneurs are not likely to overestimate their income and under-estimate their costs",
+    "question":
+        "Entrepreneurs are not likely to overestimate their income and under-estimate their costs",
     "options": "True|False",
     "answer": "False",
     "answerIndex": 1
   },
   {
     "id": 66,
-    "question": "Entrepreneurs which produce only one product at a time has the advantage of being able to use a continuous-production layout.",
+    "question":
+        "Entrepreneurs which produce only one product at a time has the advantage of being able to use a continuous-production layout.",
     "options": "True|False",
     "answer": "True",
     "answerIndex": 0
   },
   {
     "id": 67,
-    "question": "A perfectly moral entrepreneur would never allow the pull of emotion to cause him or her to act in less than entirely unreasonable manner",
+    "question":
+        "A perfectly moral entrepreneur would never allow the pull of emotion to cause him or her to act in less than entirely unreasonable manner",
     "options": "True|False",
     "answer": "False",
     "answerIndex": 1
   },
   {
     "id": 68,
-    "question": "Disciplining and controlling entrepreneurial motion is often hard work",
+    "question":
+        "Disciplining and controlling entrepreneurial motion is often hard work",
     "options": "True|False",
     "answer": "True",
     "answerIndex": 0
   },
   {
     "id": 69,
-    "question": "In choosing an entrepreneurial projects, emotions play more important role than intelligence",
+    "question":
+        "In choosing an entrepreneurial projects, emotions play more important role than intelligence",
     "options": "True|False",
     "answer": "False",
     "answerIndex": 1
   },
   {
     "id": 70,
-    "question": "Provision of different economic satisfaction is not innovation",
+    "question":
+        "Provision of different economic satisfaction is not innovation",
     "options": "True|False",
     "answer": "False",
     "answerIndex": 1
+  },
+  {
+    "id": 71,
+    "question":
+        "In entrepreneurship, opportunity assessment plan is not a business plan",
+    "options": "True|False",
+    "answer": "False",
+    "answerIndex": 1
+  },
+  {
+    "id": 72,
+    "question":
+        "Assessment of the opportunity is not the most critical aspect of opportunity analysis",
+    "options": "True|False",
+    "answer": "False",
+    "answerIndex": 1
+  },
+  {
+    "id": 73,
+    "question": "The final business dimension is the management structure",
+    "options": "True|False",
+    "answer": "True",
+    "answerIndex": 0
+  },
+  {
+    "id": 74,
+    "question":
+        "The differences in the entrepreneurial and managerial domains have increased interest in Intrapreneurship",
+    "options": "True|False",
+    "answer": "True",
+    "answerIndex": 0
+  },
+  {
+    "id": 75,
+    "question":
+        "Intrapreneurship is most strongly reflected in entrepreneurial activities",
+    "options": "True|False",
+    "answer": "True",
+    "answerIndex": 0
+  },
+  {
+    "id": 76,
+    "question": "An intrapreneur must build a coalition of supporters",
+    "options": "True|False",
+    "answer": "True",
+    "answerIndex": 0
+  },
+  {
+    "id": 77,
+    "question": "Corporate venturing is not synonymous with intrapreneurship",
+    "options": "True|False",
+    "answer": "False",
+    "answerIndex": 1
+  },
+  {
+    "id": 78,
+    "question": "Organisational climate plays a vital role in innovation",
+    "options": "True|False",
+    "answer": "True",
+    "answerIndex": 0
+  },
+  {
+    "id": 79,
+    "question":
+        "There is really no such thing as a ‘true entrepreneurial profile’",
+    "options": "True|False",
+    "answer": "True",
+    "answerIndex": 0
+  },
+  {
+    "id": 80,
+    "question":
+        "Appropriate leadership characteristic is needed in intrapreneurship as similarly in entrepreneurship",
+    "options": "True|False",
+    "answer": "False",
+    "answerIndex": 1
+  },
+  {
+    "id": 81,
+    "question": "Entrepreneurs are not necessarily equated to inventors",
+    "options": "True|False",
+    "answer": "True",
+    "answerIndex": 0
+  },
+  {
+    "id": 82,
+    "question": "Income statement is not a snap-shot of the firm’s picture",
+    "options": "True|False",
+    "answer": "True",
+    "answerIndex": 0
+  },
+  {
+    "id": 83,
+    "question":
+        "Liquidity ratios demonstrate the ability of a firm to meet up its short-term obligations",
+    "options": "True|False",
+    "answer": "False",
+    "answerIndex": 1
+  },
+  {
+    "id": 84,
+    "question": "The marketing concept places much emphasis on the customer",
+    "options": "True|False",
+    "answer": "True",
+    "answerIndex": 0
+  },
+  {
+    "id": 85,
+    "question":
+        "A business solely exists to enable consumers to satisfy their needs and wants",
+    "options": "True|False",
+    "answer": "True",
+    "answerIndex": 0
+  },
+  {
+    "id": 86,
+    "question":
+        "Predatory pricing is not an ethical behavior business should engage in",
+    "options": "True|False",
+    "answer": "False",
+    "answerIndex": 1
+  },
+  {
+    "id": 87,
+    "question":
+        "Balance sheet gives the picture of business financial position at a particular point in time",
+    "options": "True|False",
+    "answer": "True",
+    "answerIndex": 0
+  },
+  {
+    "id": 88,
+    "question": "Liability is one of the reasons for corporation establishment",
+    "options": "True|False",
+    "answer": "True",
+    "answerIndex": 0
+  },
+  {
+    "id": 89,
+    "question": "Entrepreneurial Corporation can be created by a statute",
+    "options": "True|False",
+    "answer": "False",
+    "answerIndex": 1
+  },
+  {
+    "id": 90,
+    "question":
+        "Equity financing for entrepreneurial development can be obtained through exchange of ownership",
+    "options": "True|False",
+    "answer": "True",
+    "answerIndex": 0
+  },
+  {
+    "id": 91,
+    "question": "Accounts receivable can provide a basis for a loan",
+    "options": "True|False",
+    "answer": "False",
+    "answerIndex": 1
+  },
+  {
+    "id": 92,
+    "question":
+        "Cash flow financing can be used by entrepreneurs as an alternative to debt financing",
+    "options": "True|False",
+    "answer": "True",
+    "answerIndex": 0
+  },
+  {
+    "id": 93,
+    "question":
+        "Debt to equity ratio assesses the capital structure of entrepreneur’s firm",
+    "options": "True|False",
+    "answer": "True",
+    "answerIndex": 0
+  },
+  {
+    "id": 94,
+    "question": "Entrepreneurial business laws can be forward-looking",
+    "options": "True|False",
+    "answer": "False",
+    "answerIndex": 1
+  },
+  {
+    "id": 95,
+    "question":
+        "A legal compliance business route is not necessarily against the philosophy of empowerment",
+    "options": "True|False",
+    "answer": "True",
+    "answerIndex": 0
+  },
+  {
+    "id": 96,
+    "question": "Truth is always a wise policy in business",
+    "options": "True|False",
+    "answer": "False",
+    "answerIndex": 1
+  },
+  {
+    "id": 97,
+    "question": "Small business owners can also be considered intrapreneurs",
+    "options": "True|False",
+    "answer": "False",
+    "answerIndex": 1
+  },
+  {
+    "id": 98,
+    "question":
+        "One of the strongest sources of entrepreneurial position power is reward power",
+    "options": "True|False",
+    "answer": "True",
+    "answerIndex": 0
+  },
+  {
+    "id": 99,
+    "question":
+        "In terms of productive roles, entrepreneurs are called creators",
+    "options": "True|False",
+    "answer": "True",
+    "answerIndex": 0
+  },
+  {
+    "id": 100,
+    "question":
+        "Financing by acquisition of plant and equipment is not called leasing",
+    "options": "True|False",
+    "answer": "True",
+    "answerIndex": 0
   }
-
 ];
 
 /* Computer Appreciation */
