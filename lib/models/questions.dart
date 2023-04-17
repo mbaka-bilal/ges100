@@ -2094,6 +2094,90 @@ final List<Map<String, dynamic>> ges300 = [
     "options": "External support|Clear goals|Irrelevant skills|Mutual trust",
     "answer": "Irrelevant skills",
     "answerIndex": 2
+  },
+  {
+    "id": 191,
+    "question": "In brainstorming, which of the following is true?",
+    "options": "No criticism is allowed|Quantity of ideas is desired|None of the mentioned options|Both of the mentioned options",
+    "answer": "Both of the mentioned options",
+    "answerIndex": 3
+  },
+  {
+    "id": 192,
+    "question": "Which of the following is a technique that asks questions about objects or ideas in an effort to develop a new idea?",
+    "options": "Heuristics|Matrix charting|Forced relationships|Attribute listing",
+    "answer": "Forced relationships",
+    "answerIndex": 2
+  },
+  {
+    "id": 193,
+    "question": "What is the term used for the process of developing a solution?",
+    "options": "Big-Dream approach|Parameter Analysis|Creative synthesis|None of the above",
+    "answer": "Creative synthesis",
+    "answerIndex": 2
+  },
+  {
+    "id": 194,
+    "question": "Which of the following factors are involved in perceived benefits/risks?",
+    "options": "Utility to customer|Consumption habits|Buying motives|All of the above",
+    "answer": "All of the above",
+    "answerIndex": 3
+  },
+  {
+    "id": 195,
+    "question": "What is a patent?",
+    "options": "A document between government and an inventor|Grants holder protection from others making, using, or selling similar idea|A public domain|None of the above",
+    "answer": "Grants holder protection from others making, using, or selling similar idea",
+    "answerIndex": 1
+  },
+  {
+    "id": 196,
+    "question": "The term entrepreneur came from:",
+    "options": "Latin|French|English (UK)|none of the given option",
+    "answer": "French",
+    "answerIndex": 1
+  },
+  {
+    "id": 197,
+    "question": "The term entrepreneur is translated as:",
+    "options": "between-giver|between-taker|receiver|giver",
+    "answer": "between-taker",
+    "answerIndex": 1
+  },
+  {
+    "id": 198,
+    "question": "The period in which the money person entered into a contract with the go-between to sell his goods is known as:",
+    "options": "middle aes|18th century|17th century|earliest period",
+    "answer": "earliest period",
+    "answerIndex": 3
+  },
+  {
+    "id": 199,
+    "question": "_________ viewed the entrepreneur as a risk taker who 'buy(s. at an uncertain price, therefore operating at a risk'",
+    "options": "Eli Whitney|Edward hariman|Richard cantillon|Thomas Edison",
+    "answer": "Richard cantillon",
+    "answerIndex": 2
+  },
+  {
+    "id": 200,
+    "question": "_________ is a professional money manager who makes risk investment from a pool of equity capital to obtain a high rate of return on investments",
+    "options": "venture capitalist|entrepreneur|businessman|buyer",
+    "answer": "venture capitalist",
+    "answerIndex": 0
+  },
+  {
+    "id": 201,
+    "question": "In the ---------- century, the notion of an entrepreneur as an innovator was established.",
+    "options": "17th century|late 19th century|middle of the 20th century|18th century",
+    "answer": "middle of the 20th century",
+    "answerIndex": 2
+  },
+  {
+    "id": 202,
+    "question": "In almost all definitions of entrepreneurship there is agreement that we are talking about a kind of behavior that includes:",
+    "options": "initiative taking|the organizing and reorganizing or social/economic mechanisms to turn resources and situations to practical account.|the acceptance of risk or failure|all of the given option",
+    "answer": "all of the given option",
+    "answerIndex": 3
   }
 ];
 
