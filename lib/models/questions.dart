@@ -1,3 +1,11 @@
+/*
+  Ges 101 .. 150 (Computer Appreciation)
+  Ges 100 .. 74 (Communications in english)
+  Ges 102
+  Ges 103
+  Ges 300 .. 130 (Enterprenurship)
+ */
+
 /* Communication in english */
 final List<Map<String, dynamic>> ges100 = [
   {
@@ -565,42 +573,7 @@ final List<Map<String, dynamic>> ges100 = [
   },
 ];
 
-final List<Map<String, dynamic>> ges102 = [
-  {
-    'id': 0,
-    'question': 'Drawings of an area of the earth are referred to as',
-    'answer': 'Maps',
-    'options': 'Maps|Directives|Atlas|Handbooks',
-    'answerIndex': 0,
-  },
-  {
-    'id': 1,
-    'question':
-        'Books published yearly which carry information on various events for the coming year are called',
-    'answer': 'Almanacs',
-    'options': 'Year book|Annual book|Almanacs|Hand book',
-    'answerIndex': 2,
-  },
-];
-
-final List<Map<String, dynamic>> ges103 = [
-  {
-    'id': 0,
-    'question': 'Drawings of an area of the earth are referred to as',
-    'answer': 'Maps',
-    'options': 'Maps|Directives|Atlas|Handbooks',
-    'answerIndex': 0,
-  },
-  {
-    'id': 1,
-    'question':
-        'Books published yearly which carry information on various events for the coming year are called',
-    'answer': 'Almanacs',
-    'options': 'Year book|Annual book|Almanacs|Hand book',
-    'answerIndex': 2,
-  },
-];
-
+/* Enterprenurship */
 final List<Map<String, dynamic>> ges300 = [
   {
     'id': 0,
@@ -1663,6 +1636,254 @@ final List<Map<String, dynamic>> ges300 = [
         "Value and Cost|Imitation and Innovation|Internal and External aspects|None of the given options",
     "answer": "Value and Cost",
     "answerIndex": 0
+  },
+  {
+    "id": 131,
+    "question":
+        "An entrepreneur's primary motivation for starting a business is",
+    "options": "To make money.|To be independent|To be famous|To be powerful",
+    "answer": "To be independent",
+    "answerIndex": 1
+  },
+  {
+    "id": 132,
+    "question": "To be successful in an entrepreneurial venture, you need",
+    "options": "Money|Luck|Hard work|A good idea",
+    "answer": "Luck",
+    "answerIndex": 1
+  },
+  {
+    "id": 133,
+    "question": "Entrepreneurs are best as",
+    "options": "Managers|Venture capitalists|Planners|Doers",
+    "answer": "Doers",
+    "answerIndex": 3
+  },
+  {
+    "id": 134,
+    "question":
+        "A successful entrepreneur relies on which of the following for critical management advice",
+    "options":
+        "Internal management team|External management professionals|Financial sources|No one",
+    "answer": "External management professionals",
+    "answerIndex": 1
+  },
+  {
+    "id": 135,
+    "question": "Entrepreneurs are:",
+    "options":
+        "High risk takers|Moderate risk takers|Small risk takers|Doesn't matter",
+    "answer": "Moderate risk takers",
+    "answerIndex": 1
+  },
+  {
+    "id": 136,
+    "question": "Entrepreneurs typically form",
+    "options":
+        "Service businesses|Manufacturing companies|Constructive companies|A variety of ventures",
+    "answer": "A variety of ventures",
+    "answerIndex": 3
+  },
+  {
+    "id": 137,
+    "question": "Entrepreneurs:",
+    "options":
+        "Are the life of the party|Are bores at a cocktail party|Will never go to parties|Just fit into the crowd at a party",
+    "answer": "Just fit into the crowd at a party",
+    "answerIndex": 3
+  },
+  {
+    "id": 138,
+    "question": "Entrepreneurs and venture capitalists:",
+    "options":
+        "Get along well|Are the best friends|Are cordial friends|Are in conflict",
+    "answer": "Are in conflict",
+    "answerIndex": 3
+  },
+  {
+    "id": 139,
+    "question":
+        "An entrepreneur's primary motivation for high ego and need for achievement is based upon a relationship with:",
+    "options": "Spouse|Mother|Father|Children",
+    "answer": "Father",
+    "answerIndex": 2
+  },
+  {
+    "id": 140,
+    "question":
+        "An individual usually begins his or her first significant entrepreneurial business enterprise at what age",
+    "options": "Teens|Twenties|Forties|Fifties",
+    "answer": "Forties",
+    "answerIndex": 2
+  },
+  {
+    "id": 141,
+    "question": "NAFTA stands for:",
+    "options":
+        "North American Free Trade Agreements|North Asian Free Trade Agreements|National Asian Free Trade Agreements|National American Free Trade Agreements",
+    "answer": "North American Free Trade Agreements",
+    "answerIndex": 0
+  },
+  {
+    "id": 142,
+    "question":
+        "The factor______________ is probably the most prevalent reason for mergers.",
+    "options": "Taxation|Economies of scale|Inflation|Mergers",
+    "answer": "Economies of scale",
+    "answerIndex": 1
+  },
+  {
+    "id": 143,
+    "question":
+        "A _____________ merger is a combination of two firms producing the same products but selling them in different geographic markets.",
+    "options":
+        "Diversified Activity Merger|Product Extension Merger|Vertical Merger|Market Extension Merger",
+    "answer": "Market Extension Merger",
+    "answerIndex": 3
+  },
+  {
+    "id": 144,
+    "question":
+        "One of the most frequent reasons an entrepreneur forms a joint venture is to share the .",
+    "options": "Resources|Cost|Cost and risk of a project|Profit",
+    "answer": "Cost and risk of a project",
+    "answerIndex": 2
+  },
+  {
+    "id": 145,
+    "question":
+        " involves having a foreign purchaser in the local market or using an export management firm.",
+    "options":
+        "Direct Exporting|Indirect Exporting|Management Contracts|Turn-Key Projects",
+    "answer": "Indirect Exporting",
+    "answerIndex": 1
+  },
+  {
+    "id": 146,
+    "question":
+        "The measures the payments that flow between any individual country and all other countries.",
+    "options":
+        "International Business|Economies of Scales|Balance of Payment|None of the given options",
+    "answer": "Balance of Payment",
+    "answerIndex": 2
+  },
+  {
+    "id": 147,
+    "question":
+        "__________ is an entrepreneurial type who quickly identifies new promising business opportunities but rarely, if ever, follows through on the opportunity to create a successful new venture.",
+    "options": "Simplicity Sue|Shotgun Sam|Hidden Agenda Harry|Inventor Irving",
+    "answer": "Shotgun Sam",
+    "answerIndex": 1
+  },
+  {
+    "id": 148,
+    "question":
+        "One study found that the typical minority business owner was the",
+    "options":
+        "Oldest child in a blue-collar family and married.|Oldest child in a white-collar family and married.|Youngest child in a blue-collar family and married.|Youngest child in a white-collar family and married.",
+    "answer": "Oldest child in a blue-collar family and married.",
+    "answerIndex": 0
+  },
+  {
+    "id": 149,
+    "question": "Traditional managers are:",
+    "options":
+        "Deals with mistakes and failures|Tries to avoid mistakes and surprises|Attempts to hide risky projects from view until ready|None of the given Options",
+    "answer": "Tries to avoid mistakes and surprises",
+    "answerIndex": 1
+  },
+  {
+    "id": 150,
+    "question": "Enterperneurs are:",
+    "options": "Moderate risk taker|High risk taker|Avoidance|Both b and c",
+    "answer": "Moderate risk taker",
+    "answerIndex": 0,
+  },
+  {
+    "id": 151,
+    "question": "Risk decisions are often postponed until",
+    "options":
+        "Hard facts can be gathered or a consultant hired to illuminate the unknown.|Hard facts can be gathered or an auditor hired to illuminate the unknown.|There is no need to gather facts and hired a consultant/auditor|None of the given options",
+    "answer":
+        "Hard facts can be gathered or a consultant hired to illuminate the unknown.",
+    "answerIndex": 0
+  },
+  {
+    "id": 152,
+    "question":
+        "_________________ is one method of stimulating, and then capitalizing on, individuals in an organization who think that something can be done differently and better.",
+    "options":
+        "Strategic Orientation|Capitalization|Intrapreneurship|Management",
+    "answer": "Intrapreneurship",
+    "answerIndex": 2
+  },
+  {
+    "id": 153,
+    "question":
+        "The typical _________________ has a climate and reward system that favor conservative decision making.",
+    "options":
+        "Entrepreneurship culture|Corporate culture|Intrapreneurial culture|None of the given options",
+    "answer": "Corporate culture",
+    "answerIndex": 1
+  },
+  {
+    "id": 154,
+    "question":
+        "Female entrepreneurs normally start their venture at the age of _____________ years.",
+    "options": "35-45|25-30|20-25|40-45",
+    "answer": "35-45",
+    "answerIndex": 0
+  },
+  {
+    "id": 155,
+    "question":
+        "Male entrepreneurs normally start their venture at the age of____________ years.",
+    "options": "20-25|25-35|40-50|After the age of retirement.",
+    "answer": "25-35",
+    "answerIndex": 1
+  },
+  {
+    "id": 156,
+    "question":
+        "The ________________ is the process through which innovation develops and commercializes through entrepreneurial activity, which in turn stimulates economic growth.",
+    "options":
+        "Product-evolution process|Technological innovations|Breakthrough innovations|None of the given options",
+    "answer": "Product-evolution process",
+    "answerIndex": 0
+  },
+  {
+    "id": 157,
+    "question":
+        "A____________________ is a type of company formed from research and development that usually does not go public.",
+    "options": "Foundation|Life-Style Firm|High-Potential Venture|Both b and c",
+    "answer": "Foundation",
+    "answerIndex": 0
+  },
+  {
+    "id": 158,
+    "question":
+        "_____________ involve such things as writing, listening, oral presentations, coaching and technical know-how.",
+    "options":
+        "Business Management skills|Personal entrepreneurial skills|Technical skills|None of the given options",
+    "answer": "Technical skills",
+    "answerIndex": 2
+  },
+  {
+    "id": 159,
+    "question":
+        "The ___________________ means to do things in his or her own way and time.",
+    "options":
+        "Need per independence|Need for achievement|Personal values|Ethics",
+    "answer": "Need per independence",
+    "answerIndex": 0
+  },
+  {
+    "id": 160,
+    "question":
+        "_______________ is a reason or set of reasons for engaging in a particular behavior, especially human behavior.",
+    "options": "Moral value|Act|Motivation|None of the options",
+    "answer": "Motivation",
+    "answerIndex": 2,
   }
 ];
 
