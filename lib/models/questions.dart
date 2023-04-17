@@ -1887,210 +1887,261 @@ final List<Map<String, dynamic>> ges300 = [
   },
   {
     "id": 161,
-    "question": "The _______ plan shows whether the business is economically feasible or not.",
+    "question":
+        "The _______ plan shows whether the business is economically feasible or not.",
     "options": "Financial|Business|Economic|Marketing",
     "answer": "Business",
     "answerIndex": 1
   },
   {
     "id": 162,
-    "question": "In which of the following, the ownership of venture is reflected by ownership of shares of stock?",
+    "question":
+        "In which of the following, the ownership of venture is reflected by ownership of shares of stock?",
     "options": "Partnership|Limited partnership|Corporation|Proprietorship",
     "answer": "Corporation",
     "answerIndex": 2
   },
   {
     "id": 163,
-    "question": "Bankers say that most businesses fail because of the _____ inability to plan properly.",
+    "question":
+        "Bankers say that most businesses fail because of the _____ inability to plan properly.",
     "options": "Investor's|Marketer's|Entrepreneur's|Consultant's",
     "answer": "Entrepreneur's",
     "answerIndex": 2
   },
   {
     "id": 164,
-    "question": "The _________ of a venture could be that the company has experience in related business.",
+    "question":
+        "The _________ of a venture could be that the company has experience in related business.",
     "options": "Strength|Weakness|Opportunity|Threat",
     "answer": "Strength",
     "answerIndex": 0
   },
   {
     "id": 165,
-    "question": "The marketing plan should focus on strategies and for the first year, goals and strategies should be projected __________.",
+    "question":
+        "The marketing plan should focus on strategies and for the first year, goals and strategies should be projected __________.",
     "options": "Daily|Weekly|Monthly|Quarterly",
     "answer": "Monthly",
     "answerIndex": 2
   },
   {
     "id": 166,
-    "question": "Which of the following is not a characteristic of marketing plan?",
-    "options": "It should provide a strategy to accomplish the company mission|It should provide for the use of existing resources|It should be simple and short|It should be rigid",
+    "question":
+        "Which of the following is not a characteristic of marketing plan?",
+    "options":
+        "It should provide a strategy to accomplish the company mission|It should provide for the use of existing resources|It should be simple and short|It should be rigid",
     "answer": "It should be rigid",
     "answerIndex": 3
   },
   {
     "id": 167,
-    "question": "Secondary data can be obtained from all of the following sources, except:",
+    "question":
+        "Secondary data can be obtained from all of the following sources, except:",
     "options": "Internet|Magazine|Bureau of statistics|Focus group",
     "answer": "Focus group",
     "answerIndex": 3
   },
   {
     "id": 168,
-    "question": "Which of the following is one of the simplest form and lowest in entry costs.",
-    "options": "Direct mail marketing|Online marketing|Sales promotion|Export marketing",
+    "question":
+        "Which of the following is one of the simplest form and lowest in entry costs.",
+    "options":
+        "Direct mail marketing|Online marketing|Sales promotion|Export marketing",
     "answer": "Direct mail marketing",
     "answerIndex": 0
   },
   {
     "id": 169,
-    "question": "In ________, the death of entrepreneur results in the termination of venture.",
+    "question":
+        "In ________, the death of entrepreneur results in the termination of venture.",
     "options": "Proprietorship|Limited company|Limited partnership|Corporation",
     "answer": "Proprietorship",
     "answerIndex": 0
   },
   {
     "id": 170,
-    "question": "In partnership, the ability to raise capital depends on the __________ of the business.",
+    "question":
+        "In partnership, the ability to raise capital depends on the __________ of the business.",
     "options": "Expansion|Success|Size|Nature",
     "answer": "Success",
     "answerIndex": 1
   },
   {
     "id": 171,
-    "question": "Which of the following is NOT recognized an important component to organizational vision?",
-    "options": "The vision should be built on a foundation of the organization's core values and beliefs.|The vision should elaborate a purpose for the organization.|The vision should include a brief summary of what the organization does.|The vision should specify detailed and short-term goals.",
+    "question":
+        "Which of the following is NOT recognized an important component to organizational vision?",
+    "options":
+        "The vision should be built on a foundation of the organization's core values and beliefs.|The vision should elaborate a purpose for the organization.|The vision should include a brief summary of what the organization does.|The vision should specify detailed and short-term goals.",
     "answer": "The vision should specify detailed and short-term goals.",
     "answerIndex": 3
   },
   {
     "id": 172,
-    "question": "Which of the following components of organizational vision and mission statements tells how the organizational unit is responsive to societal, community, and environmental issues?",
+    "question":
+        "Which of the following components of organizational vision and mission statements tells how the organizational unit is responsive to societal, community, and environmental issues?",
     "options": "Customer|Market|Self-Concept|Concern for public image",
     "answer": "Concern for public image",
     "answerIndex": 3
   },
   {
     "id": 173,
-    "question": "Which of the following dimensions of organizational culture describes the degree to which employees are expected to do their jobs with precision, thorough analysis, and attention to detail?",
-    "options": "Innovation and risk-taking|Team orientation|Aggressiveness|Attention to detail",
+    "question":
+        "Which of the following dimensions of organizational culture describes the degree to which employees are expected to do their jobs with precision, thorough analysis, and attention to detail?",
+    "options":
+        "Innovation and risk-taking|Team orientation|Aggressiveness|Attention to detail",
     "answer": "Attention to detail",
     "answerIndex": 3
   },
   {
     "id": 174,
-    "question": "Which of the following does NOT represent a method through which organizational culture is learned?",
+    "question":
+        "Which of the following does NOT represent a method through which organizational culture is learned?",
     "options": "Stories|Conflict|Rituals|Material symbols",
     "answer": "Conflict",
     "answerIndex": 1
   },
   {
     "id": 175,
-    "question": "Which of the following is NOT recognized as an important purpose of a business plan?",
-    "options": "Development tool for organizational founders|Vision and mission clarification|Planning and evaluation guidelines|All of the selections are recognized as important purposes of a business plan.",
-    "answer": "All of the selections are recognized as important purposes of a business plan.",
+    "question":
+        "Which of the following is NOT recognized as an important purpose of a business plan?",
+    "options":
+        "Development tool for organizational founders|Vision and mission clarification|Planning and evaluation guidelines|All of the selections are recognized as important purposes of a business plan.",
+    "answer":
+        "All of the selections are recognized as important purposes of a business plan.",
     "answerIndex": 3
   },
   {
     "id": 176,
-    "question": "All of the following are recognized as criticisms of planning EXCEPT:",
-    "options": "Planning may create rigidity|Planning focuses entrepreneurs' attention on tomorrow's survival but not today's competition|Plans can't be developed for a dynamic environment|Formal planning reinforces success, which may lead to failure",
-    "answer": "Planning focuses entrepreneurs' attention on tomorrow's survival but not today's competition",
+    "question":
+        "All of the following are recognized as criticisms of planning EXCEPT:",
+    "options":
+        "Planning may create rigidity|Planning focuses entrepreneurs' attention on tomorrow's survival but not today's competition|Plans can't be developed for a dynamic environment|Formal planning reinforces success, which may lead to failure",
+    "answer":
+        "Planning focuses entrepreneurs' attention on tomorrow's survival but not today's competition",
     "answerIndex": 1
   },
   {
     "id": 177,
-    "question": "Which of the following is NOT recognized as a major area that should be included in a business plan?",
-    "options": "Executive summary|Corporate culture differences|Analysis of the opportunity|Analysis of the context",
+    "question":
+        "Which of the following is NOT recognized as a major area that should be included in a business plan?",
+    "options":
+        "Executive summary|Corporate culture differences|Analysis of the opportunity|Analysis of the context",
     "answer": "Corporate culture differences",
     "answerIndex": 1
   },
   {
     "id": 178,
-    "question": "Which of the following does NOT relate to the analysis of opportunity section of a business plan?",
-    "options": "Sizing up the market by describing the demographics of the target market|Analyzing current and proposed and governmental rules and regulations that might potentially have an impact on the entrepreneurial venture.|Describing and evaluating industry trends|Identifying and evaluating competitors",
-    "answer": "Analyzing current and proposed and governmental rules and regulations that might potentially have an impact on the entrepreneurial venture.",
+    "question":
+        "Which of the following does NOT relate to the analysis of opportunity section of a business plan?",
+    "options":
+        "Sizing up the market by describing the demographics of the target market|Analyzing current and proposed and governmental rules and regulations that might potentially have an impact on the entrepreneurial venture.|Describing and evaluating industry trends|Identifying and evaluating competitors",
+    "answer":
+        "Analyzing current and proposed and governmental rules and regulations that might potentially have an impact on the entrepreneurial venture.",
     "answerIndex": 1
   },
   {
     "id": 179,
-    "question": "All of the following are important elements of the financial data and projections section of a business plan EXCEPT:",
-    "options": "SWOT analysis|Projected income statements|Break-even analysis|Cost controls",
+    "question":
+        "All of the following are important elements of the financial data and projections section of a business plan EXCEPT:",
+    "options":
+        "SWOT analysis|Projected income statements|Break-even analysis|Cost controls",
     "answer": "SWOT analysis",
     "answerIndex": 0
   },
   {
     "id": 180,
-    "question": "Which of the following is NOT an important characteristic when writing a business plan?",
-    "options": "Clear, realistic financial projections|Detailed market research|Brief summary since the investor is more interested in the details in the business plan.|Proof of vision",
-    "answer": "Brief summary since the investor is more interested in the details in the business plan.",
+    "question":
+        "Which of the following is NOT an important characteristic when writing a business plan?",
+    "options":
+        "Clear, realistic financial projections|Detailed market research|Brief summary since the investor is more interested in the details in the business plan.|Proof of vision",
+    "answer":
+        "Brief summary since the investor is more interested in the details in the business plan.",
     "answerIndex": 2
   },
   {
     "id": 181,
-    "question": "A(n) ___________ is a form of organization in which the owner maintains complete control over the business and is personally liable for business debts.",
-    "options": "Sole proprietorship|General partnership|Corporation|Limited liability company",
+    "question":
+        "A(n) ___________ is a form of organization in which the owner maintains complete control over the business and is personally liable for business debts.",
+    "options":
+        "Sole proprietorship|General partnership|Corporation|Limited liability company",
     "answer": "Sole proprietorship",
     "answerIndex": 0
   },
   {
     "id": 182,
-    "question": "A(n) _____________ is a form of business organization in which two or more business owners share the management and risk of the business",
-    "options": "Limited liability company|General partnership|Corporation|Sole proprietorship",
+    "question":
+        "A(n) _____________ is a form of business organization in which two or more business owners share the management and risk of the business",
+    "options":
+        "Limited liability company|General partnership|Corporation|Sole proprietorship",
     "answer": "General partnership",
     "answerIndex": 1
   },
   {
     "id": 183,
-    "question": "A(n) ____________ is a form of business organization in which there are general partners and limited liability partners.",
-    "options": "Sole proprietorship|General partnership|Limited liability partnership|Corporation",
+    "question":
+        "A(n) ____________ is a form of business organization in which there are general partners and limited liability partners.",
+    "options":
+        "Sole proprietorship|General partnership|Limited liability partnership|Corporation",
     "answer": "Limited liability partnership",
     "answerIndex": 2
   },
   {
     "id": 184,
-    "question": "A(n) ___________ is a legal business entity that is separate from its owners and managers.",
-    "options": "Sole proprietorship|General partnership|Corporation|Limited liability company",
+    "question":
+        "A(n) ___________ is a legal business entity that is separate from its owners and managers.",
+    "options":
+        "Sole proprietorship|General partnership|Corporation|Limited liability company",
     "answer": "Corporation",
     "answerIndex": 2
   },
   {
     "id": 185,
-    "question": "A(n) ____________ is a form of legal protection for a distinctive word, name, phrase, logo, symbol, design, slogan, or any combination of these elements.",
+    "question":
+        "A(n) ____________ is a form of legal protection for a distinctive word, name, phrase, logo, symbol, design, slogan, or any combination of these elements.",
     "options": "Trademark|Patent|Contract|Procedure",
     "answer": "Trademark",
     "answerIndex": 0
   },
   {
     "id": 186,
-    "question": "Which of the following is NOT one of the three different types of patents?",
-    "options": "Utility patent|Design patent|Plant patent|All of the selections if a valid type of patent.",
+    "question":
+        "Which of the following is NOT one of the three different types of patents?",
+    "options":
+        "Utility patent|Design patent|Plant patent|All of the selections if a valid type of patent.",
     "answer": "All of the selections if a valid type of patent.",
     "answerIndex": 3
   },
   {
     "id": 187,
-    "question": "Which of the following is recognized as the most common type of patent?",
+    "question":
+        "Which of the following is recognized as the most common type of patent?",
     "options": "Utility patent|Design patent|Plant patent|Cultural patent",
     "answer": "Utility patent",
     "answerIndex": 0
   },
   {
     "id": 188,
-    "question": "All of the following are signals of potential decline in organizational performance EXCEPT:",
-    "options": "Poor communication within the organization|Intolerance of work incompetence|Fear of conflict and taking risks|Negative cash flow",
+    "question":
+        "All of the following are signals of potential decline in organizational performance EXCEPT:",
+    "options":
+        "Poor communication within the organization|Intolerance of work incompetence|Fear of conflict and taking risks|Negative cash flow",
     "answer": "Intolerance of work incompetence",
     "answerIndex": 1
   },
   {
     "id": 189,
-    "question": "All of the following are recognized as important people practices of successful organizations EXCEPT:",
-    "options": "Employment security|Selective hiring|Increased status differences|Training",
+    "question":
+        "All of the following are recognized as important people practices of successful organizations EXCEPT:",
+    "options":
+        "Employment security|Selective hiring|Increased status differences|Training",
     "answer": "Increased status differences",
     "answerIndex": 2
   },
   {
     "id": 190,
-    "question": "Which of the following is NOT a characteristic of an effective team?",
+    "question":
+        "Which of the following is NOT a characteristic of an effective team?",
     "options": "External support|Clear goals|Irrelevant skills|Mutual trust",
     "answer": "Irrelevant skills",
     "answerIndex": 2
@@ -2098,36 +2149,45 @@ final List<Map<String, dynamic>> ges300 = [
   {
     "id": 191,
     "question": "In brainstorming, which of the following is true?",
-    "options": "No criticism is allowed|Quantity of ideas is desired|None of the mentioned options|Both of the mentioned options",
+    "options":
+        "No criticism is allowed|Quantity of ideas is desired|None of the mentioned options|Both of the mentioned options",
     "answer": "Both of the mentioned options",
     "answerIndex": 3
   },
   {
     "id": 192,
-    "question": "Which of the following is a technique that asks questions about objects or ideas in an effort to develop a new idea?",
-    "options": "Heuristics|Matrix charting|Forced relationships|Attribute listing",
+    "question":
+        "Which of the following is a technique that asks questions about objects or ideas in an effort to develop a new idea?",
+    "options":
+        "Heuristics|Matrix charting|Forced relationships|Attribute listing",
     "answer": "Forced relationships",
     "answerIndex": 2
   },
   {
     "id": 193,
-    "question": "What is the term used for the process of developing a solution?",
-    "options": "Big-Dream approach|Parameter Analysis|Creative synthesis|None of the above",
+    "question":
+        "What is the term used for the process of developing a solution?",
+    "options":
+        "Big-Dream approach|Parameter Analysis|Creative synthesis|None of the above",
     "answer": "Creative synthesis",
     "answerIndex": 2
   },
   {
     "id": 194,
-    "question": "Which of the following factors are involved in perceived benefits/risks?",
-    "options": "Utility to customer|Consumption habits|Buying motives|All of the above",
+    "question":
+        "Which of the following factors are involved in perceived benefits/risks?",
+    "options":
+        "Utility to customer|Consumption habits|Buying motives|All of the above",
     "answer": "All of the above",
     "answerIndex": 3
   },
   {
     "id": 195,
     "question": "What is a patent?",
-    "options": "A document between government and an inventor|Grants holder protection from others making, using, or selling similar idea|A public domain|None of the above",
-    "answer": "Grants holder protection from others making, using, or selling similar idea",
+    "options":
+        "A document between government and an inventor|Grants holder protection from others making, using, or selling similar idea|A public domain|None of the above",
+    "answer":
+        "Grants holder protection from others making, using, or selling similar idea",
     "answerIndex": 1
   },
   {
@@ -2146,38 +2206,126 @@ final List<Map<String, dynamic>> ges300 = [
   },
   {
     "id": 198,
-    "question": "The period in which the money person entered into a contract with the go-between to sell his goods is known as:",
+    "question":
+        "The period in which the money person entered into a contract with the go-between to sell his goods is known as:",
     "options": "middle aes|18th century|17th century|earliest period",
     "answer": "earliest period",
     "answerIndex": 3
   },
   {
     "id": 199,
-    "question": "_________ viewed the entrepreneur as a risk taker who 'buy(s. at an uncertain price, therefore operating at a risk'",
+    "question":
+        "_________ viewed the entrepreneur as a risk taker who 'buy(s. at an uncertain price, therefore operating at a risk'",
     "options": "Eli Whitney|Edward hariman|Richard cantillon|Thomas Edison",
     "answer": "Richard cantillon",
     "answerIndex": 2
   },
   {
     "id": 200,
-    "question": "_________ is a professional money manager who makes risk investment from a pool of equity capital to obtain a high rate of return on investments",
+    "question":
+        "_________ is a professional money manager who makes risk investment from a pool of equity capital to obtain a high rate of return on investments",
     "options": "venture capitalist|entrepreneur|businessman|buyer",
     "answer": "venture capitalist",
     "answerIndex": 0
   },
   {
     "id": 201,
-    "question": "In the ---------- century, the notion of an entrepreneur as an innovator was established.",
-    "options": "17th century|late 19th century|middle of the 20th century|18th century",
+    "question":
+        "In the ---------- century, the notion of an entrepreneur as an innovator was established.",
+    "options":
+        "17th century|late 19th century|middle of the 20th century|18th century",
     "answer": "middle of the 20th century",
     "answerIndex": 2
   },
   {
     "id": 202,
-    "question": "In almost all definitions of entrepreneurship there is agreement that we are talking about a kind of behavior that includes:",
-    "options": "initiative taking|the organizing and reorganizing or social/economic mechanisms to turn resources and situations to practical account.|the acceptance of risk or failure|all of the given option",
+    "question":
+        "In almost all definitions of entrepreneurship there is agreement that we are talking about a kind of behavior that includes:",
+    "options":
+        "initiative taking|the organizing and reorganizing or social/economic mechanisms to turn resources and situations to practical account.|the acceptance of risk or failure|all of the given option",
     "answer": "all of the given option",
     "answerIndex": 3
+  },
+  {
+    "id": 203,
+    "question":
+        "Following is/are the factor(s) that facilitate the growth of e-commerce are:",
+    "options":
+        "the widespread use of personal computers|the adoption of intranets in companies|the acceptance of the internet as a business communications platform|all",
+    "answer": "all",
+    "answerIndex": 3
+  },
+  {
+    "id": 204,
+    "question":
+        "The product life cycle is generally divided into the following stae(s.:",
+    "options":
+        "product introduction|market growth and maturity|sales decline|all",
+    "answer": "all",
+    "answerIndex": 3
+  },
+  {
+    "id": 205,
+    "question":
+        "The entrepreneur should first file a -------------- to establish a date of conception",
+    "options":
+        "the patent application|the disclosure document|patent infringement|none",
+    "answer": "the disclosure document",
+    "answerIndex": 1
+  },
+  {
+    "id": 206,
+    "question":
+        "A --------- must have become distinctive and gained reconition before it can be registered.",
+    "options": "arbitrary mark|suggestive mark|descriptive mark|trade mark",
+    "answer": "descriptive mark",
+    "answerIndex": 2
+  },
+  {
+    "id": 207,
+    "question": "A ------------- protects original works of authorship.",
+    "options": "trade marks|trade secrets|copyrights|all",
+    "answer": "copyrights",
+    "answerIndex": 2
+  },
+  {
+    "id": 207,
+    "question": "The consumer product safety Act, passed in---------",
+    "options": "1986|1972|1970|1965",
+    "answer": "1972",
+    "answerIndex": 1
+  },
+  {
+    "id": 208,
+    "question": "Common types of insurance include:",
+    "options": "property insurance|casualty and life insurance|bonding|all",
+    "answer": "all",
+    "answerIndex": 3
+  },
+  {
+    "id": 209,
+    "question":
+        "Insurance companies calculate the premium for workers' compensation as a percentage of:",
+    "options": "parrolls|type of business|prior claim|all",
+    "answer": "all",
+    "answerIndex": 3
+  },
+  {
+    "id": 210,
+    "question":
+        "The perspective(s) need to be considered in the business plan is/are:",
+    "options": "entrepreneur|investor|marketing perspective|all",
+    "answer": "all",
+    "answerIndex": 3
+  },
+  {
+    "id": 211,
+    "question":
+        "The -------- provides a brief summary of the business plan's contents.",
+    "options":
+        "executive summary|introductory page|environmental and industry analysis|description of the venture",
+    "answer": "introductory page",
+    "answerIndex": 1
   }
 ];
 
