@@ -1884,6 +1884,216 @@ final List<Map<String, dynamic>> ges300 = [
     "options": "Moral value|Act|Motivation|None of the options",
     "answer": "Motivation",
     "answerIndex": 2,
+  },
+  {
+    "id": 161,
+    "question": "The _______ plan shows whether the business is economically feasible or not.",
+    "options": "Financial|Business|Economic|Marketing",
+    "answer": "Business",
+    "answerIndex": 1
+  },
+  {
+    "id": 162,
+    "question": "In which of the following, the ownership of venture is reflected by ownership of shares of stock?",
+    "options": "Partnership|Limited partnership|Corporation|Proprietorship",
+    "answer": "Corporation",
+    "answerIndex": 2
+  },
+  {
+    "id": 163,
+    "question": "Bankers say that most businesses fail because of the _____ inability to plan properly.",
+    "options": "Investor's|Marketer's|Entrepreneur's|Consultant's",
+    "answer": "Entrepreneur's",
+    "answerIndex": 2
+  },
+  {
+    "id": 164,
+    "question": "The _________ of a venture could be that the company has experience in related business.",
+    "options": "Strength|Weakness|Opportunity|Threat",
+    "answer": "Strength",
+    "answerIndex": 0
+  },
+  {
+    "id": 165,
+    "question": "The marketing plan should focus on strategies and for the first year, goals and strategies should be projected __________.",
+    "options": "Daily|Weekly|Monthly|Quarterly",
+    "answer": "Monthly",
+    "answerIndex": 2
+  },
+  {
+    "id": 166,
+    "question": "Which of the following is not a characteristic of marketing plan?",
+    "options": "It should provide a strategy to accomplish the company mission|It should provide for the use of existing resources|It should be simple and short|It should be rigid",
+    "answer": "It should be rigid",
+    "answerIndex": 3
+  },
+  {
+    "id": 167,
+    "question": "Secondary data can be obtained from all of the following sources, except:",
+    "options": "Internet|Magazine|Bureau of statistics|Focus group",
+    "answer": "Focus group",
+    "answerIndex": 3
+  },
+  {
+    "id": 168,
+    "question": "Which of the following is one of the simplest form and lowest in entry costs.",
+    "options": "Direct mail marketing|Online marketing|Sales promotion|Export marketing",
+    "answer": "Direct mail marketing",
+    "answerIndex": 0
+  },
+  {
+    "id": 169,
+    "question": "In ________, the death of entrepreneur results in the termination of venture.",
+    "options": "Proprietorship|Limited company|Limited partnership|Corporation",
+    "answer": "Proprietorship",
+    "answerIndex": 0
+  },
+  {
+    "id": 170,
+    "question": "In partnership, the ability to raise capital depends on the __________ of the business.",
+    "options": "Expansion|Success|Size|Nature",
+    "answer": "Success",
+    "answerIndex": 1
+  },
+  {
+    "id": 171,
+    "question": "Which of the following is NOT recognized an important component to organizational vision?",
+    "options": "The vision should be built on a foundation of the organization's core values and beliefs.|The vision should elaborate a purpose for the organization.|The vision should include a brief summary of what the organization does.|The vision should specify detailed and short-term goals.",
+    "answer": "The vision should specify detailed and short-term goals.",
+    "answerIndex": 3
+  },
+  {
+    "id": 172,
+    "question": "Which of the following components of organizational vision and mission statements tells how the organizational unit is responsive to societal, community, and environmental issues?",
+    "options": "Customer|Market|Self-Concept|Concern for public image",
+    "answer": "Concern for public image",
+    "answerIndex": 3
+  },
+  {
+    "id": 173,
+    "question": "Which of the following dimensions of organizational culture describes the degree to which employees are expected to do their jobs with precision, thorough analysis, and attention to detail?",
+    "options": "Innovation and risk-taking|Team orientation|Aggressiveness|Attention to detail",
+    "answer": "Attention to detail",
+    "answerIndex": 3
+  },
+  {
+    "id": 174,
+    "question": "Which of the following does NOT represent a method through which organizational culture is learned?",
+    "options": "Stories|Conflict|Rituals|Material symbols",
+    "answer": "Conflict",
+    "answerIndex": 1
+  },
+  {
+    "id": 175,
+    "question": "Which of the following is NOT recognized as an important purpose of a business plan?",
+    "options": "Development tool for organizational founders|Vision and mission clarification|Planning and evaluation guidelines|All of the selections are recognized as important purposes of a business plan.",
+    "answer": "All of the selections are recognized as important purposes of a business plan.",
+    "answerIndex": 3
+  },
+  {
+    "id": 176,
+    "question": "All of the following are recognized as criticisms of planning EXCEPT:",
+    "options": "Planning may create rigidity|Planning focuses entrepreneurs' attention on tomorrow's survival but not today's competition|Plans can't be developed for a dynamic environment|Formal planning reinforces success, which may lead to failure",
+    "answer": "Planning focuses entrepreneurs' attention on tomorrow's survival but not today's competition",
+    "answerIndex": 1
+  },
+  {
+    "id": 177,
+    "question": "Which of the following is NOT recognized as a major area that should be included in a business plan?",
+    "options": "Executive summary|Corporate culture differences|Analysis of the opportunity|Analysis of the context",
+    "answer": "Corporate culture differences",
+    "answerIndex": 1
+  },
+  {
+    "id": 178,
+    "question": "Which of the following does NOT relate to the analysis of opportunity section of a business plan?",
+    "options": "Sizing up the market by describing the demographics of the target market|Analyzing current and proposed and governmental rules and regulations that might potentially have an impact on the entrepreneurial venture.|Describing and evaluating industry trends|Identifying and evaluating competitors",
+    "answer": "Analyzing current and proposed and governmental rules and regulations that might potentially have an impact on the entrepreneurial venture.",
+    "answerIndex": 1
+  },
+  {
+    "id": 179,
+    "question": "All of the following are important elements of the financial data and projections section of a business plan EXCEPT:",
+    "options": "SWOT analysis|Projected income statements|Break-even analysis|Cost controls",
+    "answer": "SWOT analysis",
+    "answerIndex": 0
+  },
+  {
+    "id": 180,
+    "question": "Which of the following is NOT an important characteristic when writing a business plan?",
+    "options": "Clear, realistic financial projections|Detailed market research|Brief summary since the investor is more interested in the details in the business plan.|Proof of vision",
+    "answer": "Brief summary since the investor is more interested in the details in the business plan.",
+    "answerIndex": 2
+  },
+  {
+    "id": 181,
+    "question": "A(n) ___________ is a form of organization in which the owner maintains complete control over the business and is personally liable for business debts.",
+    "options": "Sole proprietorship|General partnership|Corporation|Limited liability company",
+    "answer": "Sole proprietorship",
+    "answerIndex": 0
+  },
+  {
+    "id": 182,
+    "question": "A(n) _____________ is a form of business organization in which two or more business owners share the management and risk of the business",
+    "options": "Limited liability company|General partnership|Corporation|Sole proprietorship",
+    "answer": "General partnership",
+    "answerIndex": 1
+  },
+  {
+    "id": 183,
+    "question": "A(n) ____________ is a form of business organization in which there are general partners and limited liability partners.",
+    "options": "Sole proprietorship|General partnership|Limited liability partnership|Corporation",
+    "answer": "Limited liability partnership",
+    "answerIndex": 2
+  },
+  {
+    "id": 184,
+    "question": "A(n) ___________ is a legal business entity that is separate from its owners and managers.",
+    "options": "Sole proprietorship|General partnership|Corporation|Limited liability company",
+    "answer": "Corporation",
+    "answerIndex": 2
+  },
+  {
+    "id": 185,
+    "question": "A(n) ____________ is a form of legal protection for a distinctive word, name, phrase, logo, symbol, design, slogan, or any combination of these elements.",
+    "options": "Trademark|Patent|Contract|Procedure",
+    "answer": "Trademark",
+    "answerIndex": 0
+  },
+  {
+    "id": 186,
+    "question": "Which of the following is NOT one of the three different types of patents?",
+    "options": "Utility patent|Design patent|Plant patent|All of the selections if a valid type of patent.",
+    "answer": "All of the selections if a valid type of patent.",
+    "answerIndex": 3
+  },
+  {
+    "id": 187,
+    "question": "Which of the following is recognized as the most common type of patent?",
+    "options": "Utility patent|Design patent|Plant patent|Cultural patent",
+    "answer": "Utility patent",
+    "answerIndex": 0
+  },
+  {
+    "id": 188,
+    "question": "All of the following are signals of potential decline in organizational performance EXCEPT:",
+    "options": "Poor communication within the organization|Intolerance of work incompetence|Fear of conflict and taking risks|Negative cash flow",
+    "answer": "Intolerance of work incompetence",
+    "answerIndex": 1
+  },
+  {
+    "id": 189,
+    "question": "All of the following are recognized as important people practices of successful organizations EXCEPT:",
+    "options": "Employment security|Selective hiring|Increased status differences|Training",
+    "answer": "Increased status differences",
+    "answerIndex": 2
+  },
+  {
+    "id": 190,
+    "question": "Which of the following is NOT a characteristic of an effective team?",
+    "options": "External support|Clear goals|Irrelevant skills|Mutual trust",
+    "answer": "Irrelevant skills",
+    "answerIndex": 2
   }
 ];
 
