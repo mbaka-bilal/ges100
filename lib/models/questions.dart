@@ -1411,6 +1411,258 @@ final List<Map<String, dynamic>> ges300 = [
     "options": "True|False",
     "answer": "True",
     "answerIndex": 0
+  },
+  {
+    "id": 101,
+    "question":
+        "Any patents, trademarks , copyright or trade secrets held by the entrepreneur is known as",
+    "options":
+        "Disclosure document|Patent|Intellectual property|None of the mentioned",
+    "answer": "Intellectual property",
+    "answerIndex": 2
+  },
+  {
+    "id": 102,
+    "question":
+        "The organization will never be able to make the necessary changes without_________",
+    "options":
+        "Top management commitment|Employees|Workers|None of the mentioned",
+    "answer": "Top management commitment",
+    "answerIndex": 0
+  },
+  {
+    "id": 103,
+    "question": "The ways entrepreneurs make decisions.",
+    "options":
+        "Entrepreneurial domain|Reverse brain storming|Heuristics|Reverse brain storming",
+    "answer": "Entrepreneurial domain",
+    "answerIndex": 0
+  },
+  {
+    "id": 104,
+    "question":
+        "A trademark is a word, symbol, name or device that a business uses to identify its goods.",
+    "options":
+        "A legal protection for information on foreign products.|Legal protection for intellectual works.|Legal protection for a U.S. product exported to another country.",
+    "answer": "Legal protection for intellectual works.",
+    "answerIndex": 1
+  },
+  {
+    "id": 105,
+    "question": "locus of control is",
+    "options": "A feeling|Attitude|Attribute|None of the above",
+    "answer": "Attribute",
+    "answerIndex": 2
+  },
+  {
+    "id": 106,
+    "question": "Licensing arrangements have",
+    "options":
+        "Low risk process involved|Easy way to generate incremental income|Several pitfalls|All of the above",
+    "answer": "All of the above",
+    "answerIndex": 3
+  },
+  {
+    "id": 107,
+    "question":
+        "Personal characteristics to be a successful entrepreneur includes",
+    "options":
+        "Understanding environment|Creating management options|Encourage open discussion|All of the above",
+    "answer": "All of the above",
+    "answerIndex": 3
+  },
+  {
+    "id": 108,
+    "question": "International entrepreneurship is",
+    "options":
+        "Licensing|Exporting|Both of the mentioned options|None of the two mentioned",
+    "answer": "Both of the mentioned options",
+    "answerIndex": 2
+  },
+  {
+    "id": 109,
+    "question":
+        "Which of the following is not a characteristic that is helpful for an entrepreneur to have?",
+    "options": "Self-esteem|Caution|Drive|Optimism",
+    "answer": "Caution",
+    "answerIndex": 1
+  },
+  {
+    "id": 110,
+    "question": "Hindrance for going in the international business is known as",
+    "options": "Synergy|Turn key point|Trade barrier|Minority interest",
+    "answer": "Trade barrier",
+    "answerIndex": 2
+  },
+  {
+    "id": 111,
+    "question":
+        "A set of reasons for engaging in a particular behavior, especially human behavior is known as _____________.",
+    "options": "Values|Vision|Entrepreneurship|Motivation",
+    "answer": "Motivation",
+    "answerIndex": 3
+  },
+  {
+    "id": 112,
+    "question":
+        "Which of the following techniques is an excellent method for initially screening ideas and concepts in addition to generating new ideas?",
+    "options":
+        "Focus group|Brain storming|Problem inventory analysis|Reverse brainstorming",
+    "answer": "Focus group",
+    "answerIndex": 0
+  },
+  {
+    "id": 113,
+    "question":
+        "The creative process for problem solving that involves making the strange familiar in first step and then making the familiar strange through personal, direct or symbolic analogy is called _________.",
+    "options": "Synectics|Gordon method|Checklist method|Scientific method",
+    "answer": "Synectics",
+    "answerIndex": 0
+  },
+  {
+    "id": 114,
+    "question":
+        "When the multiplicity of environments become too complex to handle, the international entrepreneurs often __________.",
+    "options":
+        "Go for mergers|Diversify|Decentralize operations|Sale out the foreign business",
+    "answer": "Decentralize operations",
+    "answerIndex": 2
+  },
+  {
+    "id": 115,
+    "question":
+        "An entrepreneur into the hosiery business found out the reason his hosiery was not selling was due to its color. What could be the best source of this information?",
+    "options": "Supplier|Retailer|Competition|Government bureau",
+    "answer": "Retailer",
+    "answerIndex": 1
+  },
+  {
+    "id": 116,
+    "question":
+        "In some countries, point of purchase displays are not allowed in retail stores. Such differences are studied by international entrepreneurs under __________ environment.",
+    "options": "Economic|Political|Cultural|Technological",
+    "answer": "Cultural",
+    "answerIndex": 2
+  },
+  {
+    "id": 117,
+    "question":
+        "Entrepreneurial success has been significant because of the culture and the political and economic systems in _________.",
+    "options":
+        "European countries|Asian countries|Transition economies|Middle east",
+    "answer": "Asian countries",
+    "answerIndex": 1
+  },
+  {
+    "id": 118,
+    "question":
+        "Having more than 50% ownership position that provides the entrepreneur with managerial control is called ___________.",
+    "options":
+        "Joint venture|Majority interest|Horizontal merger|Diversified activity merger",
+    "answer": "Majority interest",
+    "answerIndex": 1
+  },
+  {
+    "id": 119,
+    "question":
+        "The under-developed or lesser developed countries need manufacturing technology and infrastructure and yet do not want to turn over substantial portion of their economy to foreign ownership. Which of the following is a solution to this dilemma?",
+    "options":
+        "Management contract|Indirect exporting|Licensing|Turn-key project",
+    "answer": "Turn-key project",
+    "answerIndex": 3
+  },
+  {
+    "id": 120,
+    "question":
+        "The development of a new venture based on an inventor's work often requires _________.",
+    "options":
+        "Expertise of an entrepreneur|Heavy investment from financers|Skilled human resources|Highly educated staff",
+    "answer": "Expertise of an entrepreneur",
+    "answerIndex": 0
+  },
+  {
+    "id": 121,
+    "question":
+        "__________ is the process in marketing of dividing a market into distinct subsets (segments) that behave in the same way or have similar needs.",
+    "options":
+        "Target Market|Market Analysis|Market Segmentation|All of the Above",
+    "answer": "Market Segmentation",
+    "answerIndex": 2
+  },
+  {
+    "id": 122,
+    "question":
+        "A business where an individual is both the owner and conductor of the business affairs is called __________.",
+    "options": "Sole Proprietorship|Partnership|Corporation|None of the above",
+    "answer": "Sole Proprietorship",
+    "answerIndex": 0
+  },
+  {
+    "id": 123,
+    "question":
+        "In _________________, the entrepreneur has the right to sell any assets.",
+    "options":
+        "Proprietorship|Partnership|Limited Liability Company|None of the given options",
+    "answer": "Proprietorship",
+    "answerIndex": 0
+  },
+  {
+    "id": 124,
+    "question":
+        "_________________ are lists of the general tasks, or functions, and responsibilities of a position.",
+    "options": "Job Specifications|Job descriptions|Job Requirements|Jobholder",
+    "answer": "Job descriptions",
+    "answerIndex": 1
+  },
+  {
+    "id": 125,
+    "question":
+        "A ________________ can be a budget, a plan for spending and saving future income.",
+    "options":
+        "Marketing Plan|Financial Plan|Production Plan|Organizational Plan",
+    "answer": "Financial Plan",
+    "answerIndex": 1
+  },
+  {
+    "id": 126,
+    "question":
+        "________________ involves an interest-bearing instrument, usually a loan, the payment of which is only indirectly related to sales and profits.",
+    "options":
+        "Equity Financing|Internal or External Funds|Banking Funds|Debt Financing",
+    "answer": "Debt Financing",
+    "answerIndex": 3
+  },
+  {
+    "id": 127,
+    "question":
+        "The idea and actions that explain how a firm will make its profits refers to",
+    "options": "Mission|Goal|Strategy|Objective",
+    "answer": "Strategy",
+    "answerIndex": 2
+  },
+  {
+    "id": 128,
+    "question": "SBIR stands for:",
+    "options":
+        "Small Business Information Research|Small Business Innovation Research|Small Business Intelligent Research|Small Business Inventory Research",
+    "answer": "Small Business Innovation Research",
+    "answerIndex": 1
+  },
+  {
+    "id": 129,
+    "question":
+        "_______________ is what the 'W' in the SWOT analysis stands for.",
+    "options": "Wedge|Work/life|Worth of Business|Weakness",
+    "answer": "Weakness",
+    "answerIndex": 3
+  },
+  {
+    "id": 130,
+    "question": "Benefits can focus on which of these?",
+    "options":
+        "Value and Cost|Imitation and Innovation|Internal and External aspects|None of the given options",
+    "answer": "Value and Cost",
+    "answerIndex": 0
   }
 ];
 
