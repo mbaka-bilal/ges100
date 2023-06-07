@@ -5,7 +5,8 @@ import '../features/questions_page/screens/questions_screen.dart';
 import '../features/questions_page/screens/questions_screen_with_time.dart';
 import '../utils/appstyles.dart';
 
-Widget selectQuizTypeDialog(String tableName, BuildContext context) {
+Widget selectQuizTypeDialog(
+    String tableName, BuildContext context, List<Map<String, dynamic>> list) {
   return Dialog(
     child: Card(
       color: AppColors.purple,
@@ -21,6 +22,7 @@ Widget selectQuizTypeDialog(String tableName, BuildContext context) {
                 Navigator.of(context).push(MaterialPageRoute(
                     builder: (context) => QuestionScreenWithTime(
                           subjectName: tableName,
+                          questions: list,
                         )));
               },
               child: Row(
@@ -55,6 +57,7 @@ Widget selectQuizTypeDialog(String tableName, BuildContext context) {
                 Navigator.of(context).push(MaterialPageRoute(
                     builder: (context) => PractiseQuestionScreen(
                           subjectName: tableName,
+                          questions: list,
                         )));
               },
               child: Row(

@@ -28,51 +28,41 @@ class InterstitalAdCubit extends Cubit<InterstitialAd?> {
   }
 }
 
-class GoogleAdDisplay extends Cubit<BannerAd?> {
+class GoogleAdDisplay{
   BannerAd? _bannerAd;
 
   Future<void> init() async {
     await MobileAds.instance.initialize();
   }
 
-  GoogleAdDisplay() : super(null) {
+  GoogleAdDisplay(){
     init();
   }
 
   Future<void> initializeBannerAd() async {
-    await BannerAd(
+    _bannerAd = BannerAd(
             size: AdSize.banner,
-            adUnitId: "ca-app-pub-3197842556924641/8820368180",
+            adUnitId: 'ca-app-pub-3940256099942544/6300978111',    // "ca-app-pub-3197842556924641/8820368180",
             listener: BannerAdListener(onAdLoaded: (ad) {
-              print("successfully loaded ad");
-              _bannerAd = ad as BannerAd?;
-              emit(_bannerAd);
+              // _bannerAd = ad as BannerAd?;
+
             }, onAdFailedToLoad: ((ad, error) {
-              print("could not load ad $error");
               _bannerAd = null;
-              emit(null);
+              // emit(null);
             })),
             request: const AdRequest())
-        .load();
+        ..load();
   }
 
-  // BannerAd? fetchBannerAd() {
-  //   return _bannerAd;
-  // }
+  BannerAd? get fetchBannerAd {
+    return _bannerAd;
+  }
 
   void disposeAd() {
-    print("disposing");
     if (_bannerAd != null) {
-      print("banner ad is null");
       _bannerAd!.dispose();
     }
     _bannerAd = null;
-    emit(null);
   }
 
-  // @override
-  // Future<void> close() {
-  //   disposeAd();
-  //   return super.close();
-  // }
 }

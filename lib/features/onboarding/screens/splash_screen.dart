@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '/features/onboarding/screens/onboarding.dart';
-import '/services/f_database.dart';
+
 
 import '../../../utils/appstyles.dart';
 
@@ -13,37 +13,43 @@ class SplashScreen extends StatefulWidget {
 }
 
 class _SplashScreenState extends State<SplashScreen> {
-  Future<void> initialize() async {
-    FDatabase fDatabase = FDatabase();
-
-    try {
-      /* Communication in english */
-      if (await fDatabase.checkIfTableExists('ges100') == false) {
-        await FDatabase.createDatabaseAndTables('ges100');
-      }
-
-      /* Computer Appreciation */
-      if (await fDatabase.checkIfTableExists('ges101') == false) {
-        await FDatabase.createDatabaseAndTables('ges101');
-      }
-
-      await fDatabase.addQuestionsToTable('ges100');
-      await fDatabase.addQuestionsToTable('ges101');
-    } catch (e) {
-      // print("Splash Screen: could not initialize questions $e");
-      throw Future.error("Error");
-    }
-  }
+  // Future<void> initialize() async {
+  //   FDatabase fDatabase = FDatabase();
+  //
+  //   try {
+  //     /* Communication in english */
+  //     if (await fDatabase.checkIfTableExists('ges100') == false) {
+  //       await FDatabase.createDatabaseAndTables('ges100');
+  //     }else{
+  //       await fDatabase.addQuestionsToTable('ges100');
+  //     }
+  //
+  //     /* Computer Appreciation */
+  //     if (await fDatabase.checkIfTableExists('ges101') == false) {
+  //       await FDatabase.createDatabaseAndTables('ges101');
+  //     }else{
+  //       await fDatabase.addQuestionsToTable('ges101');
+  //     }
+  //
+  //     /* Entrepreneurship */
+  //     if (await fDatabase.checkIfTableExists('ges300') == false) {
+  //       await FDatabase.createDatabaseAndTables('ges300');
+  //     }else{
+  //       await fDatabase.addQuestionsToTable('ges300');
+  //     }
+  //
+  //   } catch (e) {
+  //     // print("Splash Screen: could not initialize questions $e");
+  //     throw Future.error("Error");
+  //   }
+  // }
 
   @override
   void initState() {
     super.initState();
-    initialize()
-        .then((value) => Navigator.of(context).pushReplacement(
-            MaterialPageRoute(builder: (context) => const OnBoarding())))
-        .onError((error, stackTrace) {
+    WidgetsBinding.instance.addPostFrameCallback((timeStamp) {
       Navigator.of(context).pushReplacement(
-          MaterialPageRoute(builder: (context) => const ErrorPage()));
+          MaterialPageRoute(builder: (context) => const OnBoarding()));
     });
   }
 
@@ -62,35 +68,10 @@ class _SplashScreenState extends State<SplashScreen> {
                   color: Colors.black,
                 ),
                 // Spacer(),
-                Align(
-                    alignment: Alignment.bottomCenter,
-                    child: Text("Preparing questions, please wait...."))
+                // Align(
+                //     alignment: Alignment.bottomCenter,
+                //     child: Text("Preparing questions, please wait...."))
               ],
             )));
-  }
-}
-
-class ErrorPage extends StatelessWidget {
-  const ErrorPage({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return const Scaffold(
-      body: Padding(
-        padding: EdgeInsets.all(20.0),
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Text(
-              "Error initializing database, please contact admin @ mbakabilal.t@gmail.com",
-              style: TextStyle(
-                fontSize: 20,
-                color: Colors.black,
-              ),
-            )
-          ],
-        ),
-      ),
-    );
   }
 }

@@ -1,12 +1,9 @@
-/*
-  Ges 101 .. 150 (Computer Appreciation)
-  Ges 100 .. 74 (Communications in english)
-  Ges 102
-  Ges 103
-  Ges 300 .. 130 (Enterprenurship)
- */
-
 /* Communication in english */
+import 'dart:math';
+
+import 'package:equatable/equatable.dart';
+import 'package:flutter_test/flutter_test.dart';
+
 final List<Map<String, dynamic>> ges100 = [
   {
     'id': 0,
@@ -193,7 +190,7 @@ final List<Map<String, dynamic>> ges100 = [
     'question': 'There are three basic types of paragraph',
     'answer': 'Introductory, transitory and the concluding paragraph',
     'options':
-        'The narrative, descriptive and argumentative paragraph|ntroductory, transitory and the concluding paragraph|The expository, persuasive and structural paragraph|The response, research and assessment paragraph',
+        'The narrative, descriptive and argumentative paragraph|Introductory, transitory and the concluding paragraph|The expository, persuasive and structural paragraph|The response, research and assessment paragraph',
     'answerIndex': 1,
   },
   {
@@ -201,7 +198,7 @@ final List<Map<String, dynamic>> ges100 = [
     'question': 'A fast and effective reader makes',
     'answer': 'Very few eye movement',
     'options':
-        'Very few eye movement|Rapid eye movement|No eye movement|Persistent eye movemen',
+        'Very few eye movement|Rapid eye movement|No eye movement|Persistent eye movement',
     'answerIndex': 0,
   },
   {
@@ -955,7 +952,7 @@ final List<Map<String, dynamic>> ges300 = [
         "Locus of control is an entrepreneur’s attitude indicating the sense of direction",
     "options": "True|False",
     "answer": "False",
-    "answerIndex": 0
+    "answerIndex": 1
   },
   {
     "id": 45,
@@ -1000,7 +997,7 @@ final List<Map<String, dynamic>> ges300 = [
         "In forming a new venture, recruiting those in the firm usually requires established departmental structure and reporting systems.",
     "options": "True|False",
     "answer": "False",
-    "answerIndex": 0
+    "answerIndex": 1
   },
   {
     "id": 51,
@@ -1008,7 +1005,7 @@ final List<Map<String, dynamic>> ges300 = [
         "Opportunity parameters cannot be implied as barriers to entrepreneurs' new product creation and development",
     "options": "True|False",
     "answer": "False",
-    "answerIndex": 0
+    "answerIndex": 1
   },
   {
     "id": 52,
@@ -2381,7 +2378,7 @@ final List<Map<String, dynamic>> ges101 = [
     'question': '----------- provides a list of toggle options',
     'answer': 'Check boxes',
     'options': 'List boxes|Text boxes|Check boxes|Option button|Drop down list',
-    'answerIndex': 3,
+    'answerIndex': 2,
   },
   {
     'id': 7,
@@ -2499,7 +2496,7 @@ final List<Map<String, dynamic>> ges101 = [
     'options':
         'use of the arrow keys|selecting with the mouse|use of the tab key|a, b and c are correct|none of the above',
     'answer': 'a, b and c are correct',
-    'answerIndex': 4
+    'answerIndex': 3
   },
   {
     'id': 22,
@@ -2514,7 +2511,7 @@ final List<Map<String, dynamic>> ges101 = [
     'question': 'A temporary storage area in computer memory is called',
     'options': 'RAM|ROM|primary memory|secondary storage|buffer',
     'answer': 'buffer',
-    'answerIndex': 5
+    'answerIndex': 4
   },
   {
     'id': 24,
@@ -2545,7 +2542,7 @@ final List<Map<String, dynamic>> ges101 = [
     'options':
         'scroll up and down|saves 35% of the time spent scrolling a document|zoom in and out a graphic application|a, b and c is correct|only b and c is correct',
     'answer': 'a, b and c is correct',
-    'answerIndex': 4
+    'answerIndex': 3
   },
   {
     'id': 28,
@@ -2576,8 +2573,8 @@ final List<Map<String, dynamic>> ges101 = [
     'question': 'Primary memory will usually contain',
     'options':
         'the program currently executed and data needed by the program|a faster access time|a smaller size|a, b, c is correct|only a and b is correct',
-    'answer': '5',
-    'answerIndex': 4
+    'answer': 'the program currently executed and data needed by the program',
+    'answerIndex': 0
   },
   {
     'id': 31,
@@ -2915,7 +2912,7 @@ final List<Map<String, dynamic>> ges101 = [
     'options':
         'word document, visual basic program, excel and Fortran|word document, visual basic program, excel and Fortran|word document, visual basic package, excel and Fortran|all of the above|none of the above',
     'answer': 'word document, visual basic program, excel and Fortran',
-    'answerIndex': 1
+    'answerIndex': 0
   },
   {
     'id': 74,
@@ -3281,8 +3278,8 @@ final List<Map<String, dynamic>> ges101 = [
     'id': 121,
     'question': 'To prompt to cell address to be jumped to in Excel, press',
     'options': 'F1|F2|F4|F6|none of the above',
-    'answer': 'F5',
-    'answerIndex': 3
+    'answer': 'none of the above',
+    'answerIndex': 4
   },
   {
     'id': 122,
@@ -3298,7 +3295,7 @@ final List<Map<String, dynamic>> ges101 = [
     'options':
         'Data are processed facts|Data are information|Data are unprocessed|Information processed to give data|None of the above',
     'answer': 'Data are unprocessed',
-    'answerIndex': 3
+    'answerIndex': 2
   },
   {
     'id': 124,
@@ -3313,7 +3310,7 @@ final List<Map<String, dynamic>> ges101 = [
     'question': 'An operating system is also called ____________',
     'options': 'Directory|Processor|Supervisor|File|none of the above',
     'answer': 'Supervisor',
-    'answerIndex': 3
+    'answerIndex': 2
   },
   {
     'id': 126,
@@ -3335,7 +3332,7 @@ final List<Map<String, dynamic>> ges101 = [
         'A secondary memory with storage of 10.2MB is equivalent to how many characters',
     'options': '102000|10200000|102000000|1020000000|11200000',
     'answer': '10200000',
-    'answerIndex': 2
+    'answerIndex': 1
   },
   {
     'id': 129,
@@ -3458,7 +3455,7 @@ final List<Map<String, dynamic>> ges101 = [
     'options':
         'single processing|batch processing|multi programmed system|my document|none of a, b, C',
     'answer': 'multi programmed system',
-    'answerIndex': 3
+    'answerIndex': 2
   },
   {
     'id': 145,
@@ -3488,7 +3485,7 @@ final List<Map<String, dynamic>> ges101 = [
     'question': 'The third generation computers were built using',
     'options': 'SSI circuit|MSI circuit|LSI circuit|VLSI circuits|none',
     'answer': 'LSI circuit',
-    'answerIndex': 3
+    'answerIndex': 2
   },
   {
     'id': 149,
@@ -3506,458 +3503,179 @@ final List<Map<String, dynamic>> ges101 = [
     'answer': 'main memory',
     'answerIndex': 2
   },
-  // {
-  //   'id': 151,
-  //   'question':
-  //       '',
-  //   'options': '||||',
-  //   'answer': '',
-  //   'answerIndex':
-  // },
-  // {
-  //   'id': 152,
-  //   'question':
-  //       '',
-  //   'options': '||||',
-  //   'answer': '',
-  //   'answerIndex':
-  // },
-  // {
-  //   'id': 153,
-  //   'question':
-  //       '',
-  //   'options': '||||',
-  //   'answer': '',
-  //   'answerIndex':
-  // },
-  // {
-  //   'id': 154,
-  //   'question':
-  //       '',
-  //   'options': '||||',
-  //   'answer': '',
-  //   'answerIndex':
-  // },
-  // {
-  //   'id': 155,
-  //   'question':
-  //       '',
-  //   'options': '||||',
-  //   'answer': '',
-  //   'answerIndex':
-  // },
-  // {
-  //   'id': 156,
-  //   'question':
-  //       '',
-  //   'options': '||||',
-  //   'answer': '',
-  //   'answerIndex':
-  // },
-  // {
-  //   'id': 157,
-  //   'question':
-  //       '',
-  //   'options': '||||',
-  //   'answer': '',
-  //   'answerIndex':
-  // },
-  // {
-  //   'id': 158,
-  //   'question':
-  //       '',
-  //   'options': '||||',
-  //   'answer': '',
-  //   'answerIndex':
-  // },
-  // {
-  //   'id': 159,
-  //   'question':
-  //       '',
-  //   'options': '||||',
-  //   'answer': '',
-  //   'answerIndex':
-  // },
-  // {
-  //   'id': 160,
-  //   'question':
-  //       '',
-  //   'options': '||||',
-  //   'answer': '',
-  //   'answerIndex':
-  // },
-  // {
-  //   'id': 161,
-  //   'question':
-  //       '',
-  //   'options': '||||',
-  //   'answer': '',
-  //   'answerIndex':
-  // },
-  // {
-  //   'id': 162,
-  //   'question':
-  //       '',
-  //   'options': '||||',
-  //   'answer': '',
-  //   'answerIndex':
-  // },
-  // {
-  //   'id': 163,
-  //   'question':
-  //       '',
-  //   'options': '||||',
-  //   'answer': '',
-  //   'answerIndex':
-  // },
-  // {
-  //   'id': 164,
-  //   'question':
-  //       '',
-  //   'options': '||||',
-  //   'answer': '',
-  //   'answerIndex':
-  // },
-  // {
-  //   'id': 165,
-  //   'question':
-  //       '',
-  //   'options': '||||',
-  //   'answer': '',
-  //   'answerIndex':
-  // },
-  // {
-  //   'id': 166,
-  //   'question':
-  //       '',
-  //   'options': '||||',
-  //   'answer': '',
-  //   'answerIndex':
-  // },
-  // {
-  //   'id': 167,
-  //   'question':
-  //       '',
-  //   'options': '||||',
-  //   'answer': '',
-  //   'answerIndex':
-  // },
-  // {
-  //   'id': 168,
-  //   'question':
-  //       '',
-  //   'options': '||||',
-  //   'answer': '',
-  //   'answerIndex':
-  // },
-  // {
-  //   'id': 169,
-  //   'question':
-  //       '',
-  //   'options': '||||',
-  //   'answer': '',
-  //   'answerIndex':
-  // },
-  //  {
-  //   "id": 170,
-  //   "question": "",
-  //   "options": "||||",
-  //   "answer": "",
-  //   "answerIndex": ""
-  // },
-  // {
-  //   "id": 171,
-  //   "question": "",
-  //   "options": "||||",
-  //   "answer": "",
-  //   "answerIndex": ""
-  // },
-  // {
-  //   "id": 172,
-  //   "question": "",
-  //   "options": "||||",
-  //   "answer": "",
-  //   "answerIndex": ""
-  // },
-  // {
-  //   "id": 173,
-  //   "question": "",
-  //   "options": "||||",
-  //   "answer": "",
-  //   "answerIndex": ""
-  // },
-  // {
-  //   "id": 174,
-  //   "question": "",
-  //   "options": "||||",
-  //   "answer": "",
-  //   "answerIndex": ""
-  // },
-  // {
-  //   "id": 175,
-  //   "question": "",
-  //   "options": "||||",
-  //   "answer": "",
-  //   "answerIndex": ""
-  // },
-  // {
-  //   "id": 176,
-  //   "question": "",
-  //   "options": "||||",
-  //   "answer": "",
-  //   "answerIndex": ""
-  // },
-  // {
-  //   "id": 177,
-  //   "question": "",
-  //   "options": "||||",
-  //   "answer": "",
-  //   "answerIndex": ""
-  // },
-  // {
-  //   "id": 178,
-  //   "question": "",
-  //   "options": "||||",
-  //   "answer": "",
-  //   "answerIndex": ""
-  // },
-  // {
-  //   "id": 179,
-  //   "question": "",
-  //   "options": "||||",
-  //   "answer": "",
-  //   "answerIndex": ""
-  // },
-  // {
-  //   "id": 180,
-  //   "question": "",
-  //   "options": "||||",
-  //   "answer": "",
-  //   "answerIndex": ""
-  // },
-  // {
-  //   "id": 181,
-  //   "question": "",
-  //   "options": "||||",
-  //   "answer": "",
-  //   "answerIndex": ""
-  // },
-  // {
-  //   "id": 182,
-  //   "question": "",
-  //   "options": "||||",
-  //   "answer": "",
-  //   "answerIndex": ""
-  // },
-  // {
-  //   "id": 183,
-  //   "question": "",
-  //   "options": "||||",
-  //   "answer": "",
-  //   "answerIndex": ""
-  // },
-  // {
-  //   "id": 184,
-  //   "question": "",
-  //   "options": "||||",
-  //   "answer": "",
-  //   "answerIndex": ""
-  // },
-  // {
-  //   "id": 185,
-  //   "question": "",
-  //   "options": "||||",
-  //   "answer": "",
-  //   "answerIndex": ""
-  // },
-  // {
-  //   "id": 186,
-  //   "question": "",
-  //   "options": "||||",
-  //   "answer": "",
-  //   "answerIndex": ""
-  // },
-  // {
-  //   "id": 187,
-  //   "question": "",
-  //   "options": "||||",
-  //   "answer": "",
-  //   "answerIndex": ""
-  // },
-  // {
-  //   "id": 188,
-  //   "question": "",
-  //   "options": "||||",
-  //   "answer": "",
-  //   "answerIndex": ""
-  // },
-  // {
-  //   "id": 189,
-  //   "question": "",
-  //   "options": "||||",
-  //   "answer": "",
-  //   "answerIndex": ""
-  // },
-  //
-  // {
-  //   "id": 190,
-  //   "question": "",
-  //   "options": "||||",
-  //   "answer": "",
-  //   "answerIndex": ""
-  // },
-  // {
-  //   "id": 191,
-  //   "question": "",
-  //   "options": "||||",
-  //   "answer": "",
-  //   "answerIndex": ""
-  // },
-  // {
-  //   "id": 192,
-  //   "question": "",
-  //   "options": "||||",
-  //   "answer": "",
-  //   "answerIndex": ""
-  // },
-  // {
-  //   "id": 193,
-  //   "question": "",
-  //   "options": "||||",
-  //   "answer": "",
-  //   "answerIndex": ""
-  // },
-  // {
-  //   "id": 194,
-  //   "question": "",
-  //   "options": "||||",
-  //   "answer": "",
-  //   "answerIndex": ""
-  // },
-  // {
-  //   "id": 195,
-  //   "question": "",
-  //   "options": "||||",
-  //   "answer": "",
-  //   "answerIndex": ""
-  // },
-  // {
-  //   "id": 196,
-  //   "question": "",
-  //   "options": "||||",
-  //   "answer": "",
-  //   "answerIndex": ""
-  // },
-  // {
-  //   "id": 197,
-  //   "question": "",
-  //   "options": "||||",
-  //   "answer": "",
-  //   "answerIndex": ""
-  // },
-  // {
-  //   "id": 198,
-  //   "question": "",
-  //   "options": "||||",
-  //   "answer": "",
-  //   "answerIndex": ""
-  // },
-  // {
-  //   "id": 199,
-  //   "question": "",
-  //   "options": "||||",
-  //   "answer": "",
-  //   "answerIndex": ""
-  // },
-  // {
-  //   "id": 200,
-  //   "question": "",
-  //   "options": "||||",
-  //   "answer": "",
-  //   "answerIndex": ""
-  // },
 ];
 
 /* Nigerian peoples and culture */
 
-final List<Map<String,dynamic>> ges103 = [
+final List<Map<String, dynamic>> ges103 = [
   {
     "id": 1,
-    "question": "The post-independence Nigerian economy has been characterized by ________ ",
-    "options": "Pro-imperialism|Neo-colonial capitalism|independent capitalism|Expatriate domination|all of the above",
+    "question":
+        "The post-independence Nigerian economy has been characterized by ________ ",
+    "options":
+        "Pro-imperialism|Neo-colonial capitalism|independent capitalism|Expatriate domination|all of the above",
     "answer": "Neo-colonial capitalism",
     "answerIndex": 1
   },
   {
     "id": 2,
     "question": "The goal of national development is to _______ ",
-    "options": "Improve the living conditions of the citizenry|Provide employment|Fight corruption|Achieve economic growth",
+    "options":
+        "Improve the living conditions of the citizenry|Provide employment|Fight corruption|Achieve economic growth",
     "answer": "Improve the living conditions of the citizenry",
     "answerIndex": 0
   },
   {
     "id": 3,
-    "question": "Nigeria was introduced into the world capitalist system during the ______ economy. ",
+    "question":
+        "Nigeria was introduced into the world capitalist system during the ______ economy. ",
     "options": "Independence|Pre-colonial|post-independence|Colonial",
     "answer": "Colonial",
     "answerIndex": 3
   },
   {
     "id": 4,
-    "question": "NEEDS _______ document stated that Nigeria had one of the weakest economies in the world ",
+    "question":
+        "NEEDS _______ document stated that Nigeria had one of the weakest economies in the world ",
     "options": "2003|2004|2005|2006",
     "answer": "2004",
     "answerIndex": 1
   },
   {
     "id": 5,
-    "question": "There is the persistence of the _______ rather than the productive nature of the economy. ",
+    "question":
+        "There is the persistence of the _______ rather than the productive nature of the economy. ",
     "options": "Interventionist|Imperialist|Mercantilist|Capitalist",
     "answer": "Mercantilist",
     "answerIndex": 2
   },
   {
     "id": 6,
-    "question": "Massive plundering of Nigeria’s economic resources was initially carried out by _____ ",
+    "question":
+        "Massive plundering of Nigeria’s economic resources was initially carried out by _____ ",
     "options": "Nigerians|Imperialist|British|Ruling Class",
     "answer": "British",
     "answerIndex": 2
   },
   {
     "id": 7,
-    "question": "_______ and ________ blocked the way for natural and gradual capitalist development in Nigeria. ",
-    "options": "Imperialism and capitalism|Colonialism and capitalism|Capitalism and domination|Interventionism and capitalism.",
+    "question":
+        "_______ and ________ blocked the way for natural and gradual capitalist development in Nigeria. ",
+    "options":
+        "Imperialism and capitalism|Colonialism and capitalism|Capitalism and domination|Interventionism and capitalism.",
     "answer": "Imperialism and capitalism",
     "answerIndex": 0
   },
   {
     "id": 8,
-    "question": "Nigeria has adopted _______ development plans since independence? ",
+    "question":
+        "Nigeria has adopted _______ development plans since independence? ",
     "options": "4|5|6|7",
     "answer": "7",
     "answerIndex": 3
   },
   {
     "id": 9,
-    "question": "Pre-capitalist Nigerian economy thrived on barter and ___________ ",
+    "question":
+        "Pre-capitalist Nigerian economy thrived on barter and ___________ ",
     "options": "Reciprocity|Subsistence|Agriculture|Trade",
     "answer": "Reciprocity",
     "answerIndex": 0
   },
   {
     "id": 10,
-    "question": "Traditional Nigerian economy was marked by division of labour according to _____and ",
+    "question":
+        "Traditional Nigerian economy was marked by division of labour according to _____and ",
     "options": "Sex, background|Age, lineage|Age, sex|Sex, kingroup",
     "answer": "Age, sex",
     "answerIndex": 2
-  },
-  {
-    "id": 11,
-    "question": "",
-    "options": "|||",
-    "answer": "",
-    "answerIndex": 2
   }
-
 ];
 
+class QuestionsModel extends Equatable {
+  final String question;
+  final List<String> options;
+  final int answerIndex;
+  final int chosenAnswerIndex;
+
+  const QuestionsModel({
+    required this.question,
+    required this.options,
+    required this.answerIndex,
+    required this.chosenAnswerIndex,
+  });
+
+  @override
+  List<Object?> get props => [
+        chosenAnswerIndex,
+        question,
+        options,
+        answerIndex,
+      ];
+}
+
+void main() {
+  void check(List<Map<String, dynamic>> data) {
+    for (int i = 0; i < data.length; ++i) {
+      // print ("index is ${data[i]["id"]}");
+      final List<String> options = data[i]["options"].split("|");
+      final String answer = data[i]["answer"];
+      final int answerIndex = data[i]["answerIndex"];
+
+      expect(answerIndex, options.indexOf(answer));
+    }
+  }
+
+  Map<String, dynamic> question = {
+    "id": 1,
+    "question":
+        "The post-independence Nigerian economy has been characterized by ________ ",
+    "options":
+        "Pro-imperialism|Neo-colonial capitalism|independent capitalism|Expatriate domination|all of the above",
+    "answer": "Neo-colonial capitalism",
+    "answerIndex": 1
+  };
+
+  group("each answer should be equals to answer index", () {
+    test("test for ges100", () {
+      check(ges100);
+    });
+
+    test("test for ges300", () {
+      check(ges300);
+    });
+
+    test("test for ges103", () {
+      check(ges103);
+    });
+
+    test("test for ges101", () {
+      check(ges101);
+    });
+  });
+
+  group("question class with empty initial values should be correcly created",
+      () {
+        String optionString = question["options"] as String;
+        List<String> options = optionString.split("|");
+        int chosenAnswerIndex = 2;
+
+        final questionModel = QuestionsModel(
+            question: question["question"],
+            options: options,
+            answerIndex: question["answerIndex"],
+            chosenAnswerIndex: chosenAnswerIndex);
+
+    test("object creation is correct", () {
+      expect(questionModel.question, "The post-independence Nigerian economy has been characterized by ________ ");
+      expect(questionModel.options.length, 5);
+      expect(questionModel.options[0], "Pro-imperialism");
+      expect(questionModel.options[1], "Neo-colonial capitalism");
+      expect(questionModel.options[2], "independent capitalism");
+      expect(questionModel.options[3], "Expatriate domination");
+      expect(questionModel.options[4], "all of the above");
+      expect(questionModel.answerIndex, 1);
+      expect(questionModel.chosenAnswerIndex,2);
+    });
+  });
+}
